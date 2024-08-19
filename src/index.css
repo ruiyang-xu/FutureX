@@ -2,3 +2,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @font-face {
+    font-family: "proximanova";
+    src: url("./assets/fonts/proximanova_regular.ttf");
+  }
+
+  @font-face {
+    font-family: "georgiab";
+    src: url("./assets/fonts/georgiab.ttf");
+  }
+  @font-face {
+    font-family: "georgia";
+    src: url("./assets/fonts/georgia.ttf");
+  }
+
+  .font-georgia {
+    font-family: georgia, "Times New Roman", Times, serif;
+  }
+  .font-georgiab {
+    font-family: georgiab, "Times New Roman", Times, serif;
+  }
+  .font-proximanova {
+    font-family: proximanova, "Times New Roman", Times, serif;
+  }
+  #nav a.active {
+    text-decoration: solid;
+  }
+  #nav a.active .select {
+    width: 100%;
+    animation: width-show 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}

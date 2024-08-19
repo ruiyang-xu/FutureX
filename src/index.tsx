@@ -2,17 +2,26 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { RouterProvider } from "react-router-dom";
-import { router } from "./router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "@/components/layout/header";
+import Home from "@/pages/home/home";
+import "animate.css";
+import "@/assets/styles/anime.css";
+import Footer from "@/components/layout/footer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header></Header>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+      </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
