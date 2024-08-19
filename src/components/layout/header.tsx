@@ -1,7 +1,15 @@
+const navList = [
+  {
+    path: "",
+    name: "Home",
+  },
+];
 const Layout: React.VFC = () => {
   return (
-    <div className="flex">
-      <img src="" />
+    <div className="flex justify-between  px-4">
+      <div>
+        <img src="" />
+      </div>
       <div className="flex p-3">
         <p className="text-2">Home</p>
         <p className="text-3">Portfolio</p>
