@@ -3,6 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .home_big {
+    @apply text-3xl font-bold font-georgia text-center;
+  }
+  .home_big_small {
+    @apply text-base mt-2 w-[14.5rem] text-center mx-auto;
+  }
+  .section_title {
+    @apply text-blue text-3xl font-georgiab;
+  }
+}
+
 @layer utilities {
   @font-face {
     font-family: "proximanova";
@@ -17,12 +29,19 @@
     font-family: "georgia";
     src: url("./assets/fonts/georgia.ttf");
   }
+  @font-face {
+    font-family: "georgiai";
+    src: url("./assets/fonts/georgiai.ttf");
+  }
 
   .font-georgia {
     font-family: georgia, "Times New Roman", Times, serif;
   }
   .font-georgiab {
     font-family: georgiab, "Times New Roman", Times, serif;
+  }
+  .font-georgiai {
+    font-family: georgiai, "Times New Roman", Times, serif;
   }
   .font-proximanova {
     font-family: proximanova, "Times New Roman", Times, serif;

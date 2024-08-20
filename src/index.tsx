@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "@/components/layout/header";
 import Home from "@/pages/home/home";
+import Portfolio from "@/pages/portfolio/portfolio";
 import "animate.css";
 import "@/assets/styles/anime.css";
 import Footer from "@/components/layout/footer";
@@ -19,6 +20,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
