@@ -14,9 +14,11 @@ module.exports = {
     colors: {
       blue: "#1470AF",
       blueLigh: "#6EA3D5",
+      blueHover: "#DDEAF6",
       blueBg: "#F1F6FB",
       black: "#000",
-      white:"#fff"
+      white:"#fff",
+      h3color:"#999999"
     },
     screens: {
       sm: "640px",

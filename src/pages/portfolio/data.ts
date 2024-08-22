@@ -32,7 +32,7 @@ export const navList = [
   },
 ];
 
-export const fundData = [
+export const fundData: PortItemData[] = [
   {
     logo: logo01,
     partner: "Series X",
@@ -190,7 +190,7 @@ export const fundData = [
     type: 2,
     blurb: "Battery-As-A-Service for the Growing EV Network",
     dataDetail: {
-      founder: false,
+      founder: "",
       milestone:
         "Founded 2020 | 10+ GWh of battery assets under management by 2024",
       website: "wnpower.cn",

@@ -1,21 +1,61 @@
-import { navList } from "./data";
+import { useState } from "react";
+import { navList, fundData } from "./data";
+import Item from "@/components/portfolio/item";
 const Portfolio = () => {
+  let [index, setIndex] = useState<number>(1);
+  let [list, setList] = useState<PortItemData[]>(
+    fundData.filter((item) => item.type === 1)
+  );
+  const changeFun = (e: number) => {
+    let list = fundData.filter((item) => item.type === e);
+    setIndex(e);
+    setList(list);
+  };
   return (
     <section className="min-h-lvh px-12">
       <div className="py-[9.375rem] text-5xl font-proximanova">
         Selected Companies
       </div>
-      <div className="grid grid-cols-4 text-center bg-blueBg h-[5.125rem]  leading-[5.125rem] font-georgia text-xl">
-        <div className="font-mediumgeorgiai">Select by Fund</div>
+      <div className="flex justify-between align-middle text-center bg-blueBg  font-georgia text-xl">
+        <div className="font-georgiai w-[25%] mx-4 my-4">Select by Fund</div>
         {navList.map((item) => (
-          <div key={item.value} className="text-blueLigh my-4 cursor-pointer relative bg-blue mx-4">
+          <div
+            key={item.value}
+            className={[
+              "cursor-pointer",
+              "relative",
+              "box-border",
+              "w-[25%]",
+              "mx-4",
+              "my-4",
+              "py-2",
+              index === item.value
+                ? "bg-blueHover text-blue "
+                : "text-blueLigh ",
+            ].join(" ")}
+            onClick={() => {
+              changeFun(item.value);
+            }}
+          >
             {item.name}
-            <div className="absolute top-50% left-0 -translate-y-50% w-[1px] h-[80%] bg-blueLigh"></div>
+            <div className="absolute top-50% -translate-y-[80%] -left-4 w-[1px] h-[3rem] bg-blueLigh opacity-60"></div>
           </div>
         ))}
 
         <div></div>
       </div>
+      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueLigh">
+        <div className="text-base text-blue w-[30%] py-4 text-center uppercase">
+          Company
+        </div>
+        <div className="text-base  text-blue w-[25%] py-4 uppercase">
+          Partnered
+        </div>
+        <div className="text-base text-blue w-[45%] py-4 uppercase">Blurb</div>
+      </div>
+      {list.map((item, index) => {
+        return <Item data={item}></Item>;
+      })}
     </section>
   );
 };
