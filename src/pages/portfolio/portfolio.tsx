@@ -13,11 +13,11 @@ const Portfolio = () => {
   };
   return (
     <section className="min-h-lvh px-12">
-      <div className="py-[9.375rem] text-5xl font-proximanova">
+      <div className="py-[9.375rem] h2">
         Selected Companies
       </div>
       <div className="flex justify-between align-middle text-center bg-blueBg  font-georgia text-xl">
-        <div className="font-georgiai w-[25%] mx-4 my-4">Select by Fund</div>
+        <div className="font-georgia w-[25%] mx-4 my-4">Select by Fund</div>
         {navList.map((item) => (
           <div
             key={item.value}

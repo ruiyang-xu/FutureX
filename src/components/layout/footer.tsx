@@ -1,4 +1,4 @@
-import icon from "@/assets/img/footer_icon.png";
+import icon from "@/assets/img/header/footer_icon.png";
 const Footer = () => {
   return (
     <div className="px-16 py-12 bg-blue">

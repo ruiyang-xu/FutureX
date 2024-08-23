@@ -1,7 +1,7 @@
-import logoImg from "@/assets/img/logo.png";
 import { NavLink } from "react-router-dom";
-import menuImg from "@/assets/img/menu.png";
-import closeImg from "@/assets/img/close.png";
+import logoImg from "@/assets/img/header/logo.png";
+import menuImg from "@/assets/img/header/menu.png";
+import closeImg from "@/assets/img/header/close.png";
 import { useIsMoile } from "@/hooks/index";
 import { useState } from "react";
 
