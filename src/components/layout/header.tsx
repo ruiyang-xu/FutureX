@@ -87,7 +87,7 @@ const Layout: React.VFC = () => {
         </div>
       )}
       {isShow && isMobile && (
-        <div className="absolute top-[120px] w-[100vw] bg-blueBg left-0 height-show">
+        <div className="absolute top-[120px] w-[100vw] bg-blueBg right-0 width-show">
           {navList.map((item, index) => {
             return (
               <NavLink to={item.path} key={item.path}>

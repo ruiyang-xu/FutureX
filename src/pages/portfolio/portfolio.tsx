@@ -13,11 +13,11 @@ const Portfolio = () => {
   };
   return (
     <section className="min-h-lvh px-12">
-      <div className="py-[9.375rem] h2">
-        Selected Companies
-      </div>
+      <div className="py-[9.375rem] h2">Selected Companies</div>
       <div className="flex justify-between align-middle text-center bg-blueBg  font-georgia text-xl">
-        <div className="font-georgia w-[25%] mx-4 my-4">Select by Fund</div>
+        <div className="font-georgia w-[25%] mx-4 my-4 font-bold  py-2">
+          Select by Fund
+        </div>
         {navList.map((item) => (
           <div
             key={item.value}
@@ -44,17 +44,17 @@ const Portfolio = () => {
 
         <div></div>
       </div>
-      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueLigh">
-        <div className="text-base text-blue w-[30%] py-4 text-center uppercase">
+      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover">
+        <div className="text-base text-blue w-[30%] py-4 text-center uppercase small_cap">
           Company
         </div>
-        <div className="text-base  text-blue w-[25%] py-4 uppercase">
+        <div className="text-base  text-blue w-[25%] py-4 uppercase small_cap">
           Partnered
         </div>
-        <div className="text-base text-blue w-[45%] py-4 uppercase">Blurb</div>
+        <div className="text-base text-blue w-[45%] py-4 uppercase small_cap">Blurb</div>
       </div>
-      {list.map((item, index) => {
-        return <Item data={item}></Item>;
+      {list.map((item) => {
+        return <Item data={item} key={item.id}></Item>;
       })}
     </section>
   );

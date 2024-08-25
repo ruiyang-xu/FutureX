@@ -34,6 +34,7 @@ export const navList = [
 
 export const fundData: PortItemData[] = [
   {
+    id: 1,
     logo: logo01,
     partner: "Series X",
     year: 2017,
@@ -47,6 +48,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 2,
     logo: logo02,
     partner: "Series X",
     year: 2018,
@@ -60,6 +62,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 3,
     logo: logo03,
     partner: "Series D",
     year: 2018,
@@ -72,6 +75,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 4,
     logo: logo04,
     partner: "Series C",
     year: 2014,
@@ -86,6 +90,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 5,
     logo: logo05,
     partner: "Series D",
     year: 2020,
@@ -98,6 +103,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 6,
     logo: logo06,
     partner: "Series E",
     year: 2021,
@@ -110,6 +116,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 7,
     logo: logo07,
     partner: "Series A",
     year: 2023,
@@ -122,6 +129,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 8,
     logo: logo08,
     partner: "Series X",
     year: "20XX",
@@ -134,6 +142,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 9,
     logo: logo09,
     partner: "Series A",
     year: 2024,
@@ -147,6 +156,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 10,
     logo: logo10,
     partner: "Series X",
     year: "20xx",
@@ -160,6 +170,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 11,
     logo: logo11,
     partner: "Series B1",
     year: 2019,
@@ -172,6 +183,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 12,
     logo: logo12,
     partner: "Series A",
     year: 2021,
@@ -184,6 +196,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 13,
     logo: logo13,
     partner: "Series A",
     year: 2020,
@@ -197,6 +210,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 14,
     logo: logo14,
     partner: "Series X",
     year: 2022,
@@ -209,6 +223,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 15,
     logo: logo15,
     partner: "Series A",
     year: 2021,
@@ -221,6 +236,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 16,
     logo: logo16,
     partner: "Series B+",
     year: 2021,
@@ -234,6 +250,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 17,
     logo: logo17,
     partner: "Series D",
     year: 2017,
@@ -246,6 +263,7 @@ export const fundData: PortItemData[] = [
     },
   },
   {
+    id: 18,
     logo: logo18,
     partner: "Series B",
     year: 2024,

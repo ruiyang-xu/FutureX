@@ -8,16 +8,16 @@
     @apply text-3xl font-bold font-georgia text-center;
   }
   .home_big_small {
-    @apply text-base mt-2 w-[14.5rem] text-center mx-auto;
+    @apply text-sm mt-2 w-[14.5rem] text-center mx-auto font-light;
   }
   .section_title {
-    @apply text-blue text-3xl font-georgia font-bold;
+    @apply text-blue text-3xl font-georgia-b font-bold;
   }
   .h2 {
     @apply text-5xl font-proximanova;
   }
-  .p1{
-    @apply text-2xl font-proximanova;
+  .p1 {
+    @apply text-2xl font-proximanova-l font-light;
   }
 }
 
@@ -28,15 +28,31 @@
   }
 
   @font-face {
+    font-family: "proximanoval";
+    src: url("./assets/fonts/proximanova_light.otf");
+  }
+
+  @font-face {
     font-family: "georgia";
     src: url("./assets/fonts/georgia.ttf");
+  }
+
+  @font-face {
+    font-family: "georgiab";
+    src: url("./assets/fonts/georgiab.ttf");
   }
   .font-georgia {
     font-family: georgia, "Times New Roman", Times, serif;
   }
+  .font-georgia-b {
+    font-family: georgiab, "Times New Roman", Times, serif;
+  }
 
   .font-proximanova {
     font-family: proximanova, "Times New Roman", Times, serif;
+  }
+  .font-proximanova-l {
+    font-family: proximanoval, "Times New Roman", Times, serif;
   }
   #nav a.active {
     text-decoration: solid;
@@ -44,5 +60,23 @@
   #nav a.active .select {
     width: 100%;
     animation: width-show 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  .logo_list_bg {
+    width: 12.5rem;
+    height: 5rem;
+  }
+
+  .detail {
+    color: #6ea3d5;
+  }
+  .detail strong {
+    color: #1470af;
+  }
+  body,
+  html {
+    font-family: proximanova, "Times New Roman", Times, serif;
+  }
+  .small_cap {
+    font-variant: all-small-caps;
   }
 }

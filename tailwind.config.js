@@ -6,6 +6,8 @@ module.exports = {
       sm: "1.125rem", //18
       base: "1.25rem", //20
       xl: "1.5rem", //24
+      "1xl": "2.25rem", //36
+      "xl-32": "2rem", //32
       "2xl": "1.75rem", //28
       "3xl": "2.625rem", //42
       "4xl": "3rem", //48
@@ -22,15 +24,10 @@ module.exports = {
     },
     screens: {
       sm: "640px",
-
       md: "768px",
-
       lg: "1080px",
-
       xl: "1280px",
-
       "2xl": "1536px",
-
       "3xl": "1920px",
     },
   },
