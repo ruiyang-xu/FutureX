@@ -158,7 +158,7 @@ The global investors warmly welcomed Lotus Technology's debut on the NASDAQ mark
     desc: `On 31 October 2022, FutureX Capital’s Founding Partner, Ms Cynthia Zhang, was invited as guest speaker of the 2022 Hong Kong Fintech Week's Financing the Companies of Tomorrow Panel.
 `,
     date: "November 4th, 2022",
-    img: "/storage/app/media/Web%20capture_27-10-2022_14232_www.futurexcapital.com.jpeg",
+    img: "/storage/app/media/aaa.jpg",
   },
   {
     id: 16,
@@ -167,7 +167,7 @@ The global investors warmly welcomed Lotus Technology's debut on the NASDAQ mark
     desc: `On July 12, 2022, FutureX held an online seminar on the topic of " Changes and Opportunities in the New Energy Sector in the Era of Carbon Neutrality", and invited world-class experts to share and discuss the topic.
 `,
     date: "October 24, 2022",
-    img: "/storage/app/media/Web%20capture_27-10-2022_14232_www.futurexcapital.com.jpeg",
+    img: "/storage/app/media/webimg01.jpeg",
   },
   {
     id: 17,
@@ -176,6 +176,6 @@ The global investors warmly welcomed Lotus Technology's debut on the NASDAQ mark
     desc: `  On October 10, 2022, FutureX Capital’s portfolio company Ningbo Jenscare Scientific Co. Ltd. (stock code: 9877.HK), a medical device company focusing on developing innovative products for the treatment of structural heart disease, was successfully listed on the Main Board of Hong Kong Exchanges and Clearing (HKEX).
 `,
     date: "October 10th, 2022",
-    img: "/storage/app/media/WeChat%20Image_20221011192755.jpg",
+    img: "/storage/app/media/Image_20221011192755.jpg",
   },
 ];
