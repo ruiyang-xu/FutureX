@@ -1,7 +1,7 @@
 .art_detail strong {
   font-family: georgiab, "Times New Roman", Times, serif;
   font-size: 2.625rem;
-  margin-top: 6rem;
+  margin-top: 7.5rem;
   margin-bottom: 3rem;
   display: inline-block;
   text-decoration: underline;
@@ -11,8 +11,19 @@
   list-style-type: square;
 }
 
-.art_detail img {
-  margin-top: 4rem;
+.art_detail .img {
+  margin-top: 7.5rem;
+  text-align: center;
+}
+.art_detail .img img {
+  display: block;
+  margin: 0px auto;
+}
+.art_detail .img .img_info {
+  color: #666;
+  padding-top: 0.5rem;
+  display: block;
+  text-align: center;
 }
 .art_detail {
   font-size: 1.125rem;
@@ -22,6 +33,6 @@
   color: #1470af;
 }
 
-.art_detail p{
-  margin-top: 1rem;
+.art_detail p {
+  margin-top: 2rem;
 }

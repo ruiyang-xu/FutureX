@@ -7,7 +7,7 @@ const Detail = () => {
   let index = newList.findIndex((item) => item.id === id);
   let data = newList[index];
   return (
-    <div className="min-h-lvh px-12 mb-[7.5rem] mt-[9.375rem] max-w-[75rem] art_detail">
+    <div className="min-h-lvh px-12 mb-[7.5rem] mt-[9.375rem] max-w-[75rem]">
       <div className="text-black bg-blueLigh px-8 py-[0.1rem] inline-block uppercase rounded-[1rem] small_cap">
         {data.type}
       </div>
@@ -17,7 +17,7 @@ const Detail = () => {
       ></div>
       <div className="text-xl font-georgia text-[#666]">{data.date}</div>
       <div className="mt-[9.375rem] text-xl">{data.desc}</div>
-      <div dangerouslySetInnerHTML={{ __html: data.detail }}></div>
+      <div dangerouslySetInnerHTML={{ __html: data.detail }}className="art_detail"></div>
     </div>
   );
 };
