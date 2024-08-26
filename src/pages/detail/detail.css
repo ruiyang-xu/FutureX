@@ -1,6 +1,7 @@
 .art_detail strong {
   font-family: georgiab, "Times New Roman", Times, serif;
   font-size: 2.625rem;
+  line-height: 3rem;
   margin-top: 7.5rem;
   margin-bottom: 3rem;
   display: inline-block;
@@ -35,4 +36,8 @@
 
 .art_detail p {
   margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.art_detail .bold {
+  font-weight: bold;
 }

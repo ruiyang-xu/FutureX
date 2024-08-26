@@ -1,12 +1,12 @@
 import closeImg from "@/assets/img/netword/close.png";
-interface BoxProps {
-  data?: TeamItem;
-  close: () => void;
+
+interface PhotoItem {
+  data: NetWordPhotoData;
   isShow: boolean;
+  close: () => void;
 }
-const Box = (props: BoxProps) => {
+const ItemBox = (props: PhotoItem) => {
   let data = props.data;
-  let isShow = props.isShow;
   return (
     <div
       className={[
@@ -15,9 +15,9 @@ const Box = (props: BoxProps) => {
         "h-[100vh]",
         "top-0",
         "left-0",
-        "z-10",
+        "z-50",
         "animate__animated",
-        isShow ? "animate__zoomIn " : "animate__zoomOut",
+        props.isShow ? "animate__zoomIn " : "animate__zoomOut",
       ].join(" ")}
     >
       <div
@@ -40,25 +40,29 @@ const Box = (props: BoxProps) => {
         ].join(" ")}
       >
         <div>
-          <div className="m-auto w-[17.5rem] h-[20.375rem]">
-            <img src={data?.img} alt="" />
+          <div className="w-[17.5rem] h-[18.75rem] mx-auto">
+            <img src={data.img} />
           </div>
-          <div className="text-2xl text-center  font-georgia mt-[1.827rem]">
-            {data?.name}
+          <div className="text-xl-32 w-[17.5rem] text-center font-georgia  mt-4">
+            {data.name}
           </div>
-          <div className="text-sm uppercase text-center small_cap">{data?.pos}</div>
+          <div className="w-[9.375rem] h-[3.75rem] m-auto">
+            <img src={data.logo2} alt="" />
+          </div>
+          <p className="text-sm text-center small_cap">{data.founder}</p>
         </div>
-        <div className="text-base ml-[5.625rem] lg:mt-0 mt-10">
-          {data?.content.map((item, index) => {
+        <div className="ml-[5.625rem]">
+          <div className="text-xl font-bold">{data.title}</div>
+          {data.content.map((item) => {
             return (
-              <p className="mb-8" key={index}>
+              <p key={item} className="text-sm mt-4">
                 {item}
               </p>
             );
           })}
         </div>
         <div
-          className="absolute top-[3rem] right-[5rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
+          className=" absolute top-[3rem] right-[5rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
           onClick={() => {
             props.close();
           }}
@@ -70,4 +74,4 @@ const Box = (props: BoxProps) => {
   );
 };
 
-export default Box;
+export default ItemBox;

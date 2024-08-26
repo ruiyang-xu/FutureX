@@ -57,3 +57,8 @@ declare interface NewDetail {
   img: string;
   detail: string;
 }
+
+declare interface VoiceNav{
+  name:string;
+  value:string
+}

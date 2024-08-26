@@ -79,4 +79,8 @@
   .small_cap {
     font-variant: all-small-caps;
   }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }

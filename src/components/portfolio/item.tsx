@@ -1,12 +1,35 @@
 import addImg from "@/assets/img/portfolio/add.png";
 import subImg from "@/assets/img/portfolio/sub.png";
-import { useState } from "react";
+import { MutableRefObject, useEffect, useRef, useState } from "react";
 interface Itemprops {
   data: PortItemData;
 }
 export default function Item(props: Itemprops) {
   let data = props.data;
-  let [isShow, setIshow] = useState<boolean>(false);
+  let [isShow, setIshow] = useState<boolean>(true);
+  let [img, setImg] = useState<string>(addImg);
+  let imgRef = useRef<HTMLImageElement>() as MutableRefObject<HTMLImageElement>;
+  let showBoxRef = useRef<HTMLDivElement>(
+    null
+  ) as MutableRefObject<HTMLDivElement>;
+
+  const clickBtn = (flag: boolean) => {
+    const img = imgRef.current;
+    const showBox = showBoxRef.current;
+    if (!flag) {
+      img.className = "rotate-center";
+      showBox.className = showBox.className.replace("height-hidden", "");
+      showBox.className += " height-show";
+      setImg(subImg);
+    } else {
+      img.className = "rotate-center-revese";
+      showBox.className = showBox.className.replace("height-show", "");
+      showBox.className += " height-hidden";
+      setImg(addImg);
+    }
+    setIshow(flag);
+  };
+
   return (
     <div className=" py-6 border-t-[1px] border-blueHover items-center">
       <div className="flex">
@@ -28,24 +51,14 @@ export default function Item(props: Itemprops) {
           <div
             className="w-[2.8125rem] h-[2.8125rem] mr-8 cursor-pointer"
             onClick={() => {
-              setIshow(!isShow);
+              clickBtn(!isShow);
             }}
           >
-            {isShow ? (
-              <img src={subImg} className="rotate-center"></img>
-            ) : (
-              <img src={addImg} className="rotate-center-revese"></img>
-            )}
+            <img src={img} ref={imgRef}></img>
           </div>
         </div>
       </div>
-      <div
-        className={[
-          "ml-[7%]",
-          "mt-4",
-          isShow ? "height-show" : "height-hidden",
-        ].join(" ")}
-      >
+      <div className={["ml-[7%]", "mt-4", "h-0"].join(" ")} ref={showBoxRef}>
         <div className="text-h3color">
           <span className="uppercase inline-block w-[7rem]">Founder</span>
           <span>{data.dataDetail.founder}</span>

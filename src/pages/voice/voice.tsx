@@ -1,17 +1,31 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { navList, newList } from "./data";
 import ListItem from "@/components/voice/listItem";
 import { Link } from "react-router-dom";
 const Voice = () => {
   const [select, setSelect] = useState<string>("all");
-  const changeFun = (item: any) => {
+  const [list, setList] = useState<NewList[]>(newList);
+  const changeFun = (item: VoiceNav) => {
     setSelect(item.value);
+    let list: NewList[] = [];
+    if (item.value === "all") {
+      list = newList;
+    } else {
+      list = newList.filter((ele) => ele.type === item.value);
+    }
+    setList(list);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="min-h-lvh px-12 mb-[7.5rem]">
       <div className="py-[9.375rem] h2">Our Perspectives</div>
       <div className="flex">
-        <div className="text-2xl uppercase mr-8 font-bold small_cap">Filter</div>
+        <div className="text-2xl uppercase mr-8 font-bold small_cap">
+          Filter
+        </div>
         {navList.map((item) => {
           return (
             <div
@@ -28,7 +42,6 @@ const Voice = () => {
               onClick={() => {
                 changeFun(item);
               }}
-              
             >
               {item.name}
             </div>
@@ -36,7 +49,7 @@ const Voice = () => {
         })}
       </div>
       <div className="py-[3.75rem]">
-        {newList.map((item) => (
+        {list.map((item) => (
           <Link to={`/detail/${item.id}`}>
             <ListItem data={item}></ListItem>
           </Link>

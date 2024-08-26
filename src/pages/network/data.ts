@@ -61,6 +61,18 @@ export const popleData: NetWordPhotoData[][] = [
       ],
     },
     {
+      id: 5,
+      name: "Chuan Wang",
+      logo: logo5,
+      logo2: logos5,
+      founder: "COFounder & cSO",
+      img: p5,
+      title: "Our Story",
+      content: ["Story Detail "],
+    },
+  ],
+  [
+    {
       id: 2,
       name: "William Li",
       logo: logo2,
@@ -74,8 +86,6 @@ export const popleData: NetWordPhotoData[][] = [
         "Today, NIO not only survived but thrived, redefining China's automotive industry on a global stage.  ",
       ],
     },
-  ],
-  [
     {
       id: 3,
       name: "Xing Wang",
@@ -88,13 +98,16 @@ export const popleData: NetWordPhotoData[][] = [
         "Xing Wang impressed us with his engineer-like precision and philosophical approach. By 2016, despite market turbulence, we saw Meituan’s unwavering commitment to winning in the local services market, a sector critical to their strategy but secondary to competitors like Alibaba. This conviction led us to invest $130 million, encouraging other major investments. By 2018, Meituan’s successful IPO marked one of our most rewarding investments.",
       ],
     },
+  ],
+
+  [
     {
       id: 4,
       name: "Bin Xiao",
       logo: logo4,
       logo2: logos4,
       founder: "Founder & cEO",
-      img: p1,
+      img: p4,
       title: "Our Story",
       content: [
         "In 2016, when Kingsoft Cloud’s revenue was a modest $30- 45M and China’s cloud sector was in its infancy, we saw a future giant. Our conviction led us to lead two investment rounds, becoming their largest external shareholder pre-IPO. ",
@@ -102,47 +115,6 @@ export const popleData: NetWordPhotoData[][] = [
         "Kingsoft Cloud’s successful NASDAQ listing and its rise as a top three public cloud provider in China validate our strategic foresight and commitment to transformative technology.",
       ],
     },
-  ],
-
-  [
-    {
-      id: 5,
-      name: "Chuan Wang",
-      logo: logo5,
-      logo2: logos5,
-      founder: "COFounder & cSO",
-      img: p5,
-      title: "Our Story",
-      content: [
-        "Story Detail ",
-      ],
-    },
-    {
-      id: 6,
-      name: "Cui Yi",
-      logo: logo6,
-      logo2: logos6,
-      founder: "Founder & cEO", 
-      img: p6,
-      title: "Our Story",
-      content: [
-        "Story Details",
-      ],
-    },
-  ],
-  [
-    {
-      id: 7,
-      name: "Fengmin Gong",
-      logo: logo7,
-      logo2: logos7,
-      founder: "CHairman",
-      img: p7,
-      title: "Our Story",
-      content: [
-        "Story Details",
-      ],
-    }, 
     {
       id: 8,
       name: "Art Wong",
@@ -151,9 +123,29 @@ export const popleData: NetWordPhotoData[][] = [
       founder: "Managing Partner",
       img: p8,
       title: "Our Story",
-      content: [
-        "Story Details",
-      ],
+      content: ["Story Details"],
+    },
+  ],
+  [
+    {
+      id: 6,
+      name: "Cui Yi",
+      logo: logo6,
+      logo2: logos6,
+      founder: "Founder & cEO",
+      img: p6,
+      title: "Our Story",
+      content: ["Story Details"],
+    },
+    {
+      id: 7,
+      name: "Fengmin Gong",
+      logo: logo7,
+      logo2: logos7,
+      founder: "CHairman",
+      img: p7,
+      title: "Our Story",
+      content: ["Story Details"],
     },
   ],
 ];
