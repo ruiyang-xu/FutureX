@@ -42,6 +42,7 @@ const Layout: React.VFC = () => {
         "leading-[120px] ",
         "items-center",
         "relative",
+        "z-50",
         isShow ? "bg-blueBg" : " ",
       ].join(" ")}
     >
@@ -87,11 +88,14 @@ const Layout: React.VFC = () => {
         </div>
       )}
       {isShow && isMobile && (
-        <div className="absolute top-[120px] w-[100vw] bg-blueBg right-0 width-show">
+        <div className="absolute top-[120px] w-[100vw] bg-blueBg right-0 width-show overflow-hidden">
           {navList.map((item, index) => {
             return (
               <NavLink to={item.path} key={item.path}>
-                <div className=" text-4xl text-blue flex items-stretch pl-4">
+                <div
+                  className=" text-4xl text-blue flex items-stretch pl-4"
+                  onClick={() => setIsShow(false)}
+                >
                   <div className="text-xl pr-4 self-start ">
                     {"0" + (index + 1)}
                   </div>

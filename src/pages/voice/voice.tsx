@@ -20,9 +20,9 @@ const Voice = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="min-h-lvh px-12 mb-[7.5rem]">
+    <section className="min-h-lvh px-12 mb-[7.5rem] max-w-[100vw] overflow-x-hidden">
       <div className="py-[9.375rem] h2">Our Perspectives</div>
-      <div className="flex">
+      <div className="flex flex-wrap w-[100%]">
         <div className="text-2xl uppercase mr-8 font-bold small_cap">
           Filter
         </div>

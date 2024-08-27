@@ -24,7 +24,7 @@ export default function Item(props: Itemprops) {
     } else {
       img.className = "rotate-center-revese";
       showBox.className = showBox.className.replace("height-show", "");
-      showBox.className += " height-hidden";
+      showBox.className += "height-hidden";
       setImg(addImg);
     }
     setIshow(flag);
@@ -58,7 +58,10 @@ export default function Item(props: Itemprops) {
           </div>
         </div>
       </div>
-      <div className={["ml-[7%]", "mt-4", "h-0"].join(" ")} ref={showBoxRef}>
+      <div
+        className={["ml-[7%]", "mt-4", "h-0", "height-hidden"].join(" ")}
+        ref={showBoxRef}
+      >
         <div className="text-h3color">
           <span className="uppercase inline-block w-[7rem]">Founder</span>
           <span>{data.dataDetail.founder}</span>

@@ -4,10 +4,10 @@ import Item from "@/components/network/item";
 
 const NetWord = () => {
   return (
-    <div>
+    <div className="mxa-w-[100vw] overflow-x-visible">
       <section className="px-14">
         <div className="h2 mt-[9.375rem]">X-Network</div>
-        <p className="p1 mt-[5.625rem] w-[78.75]rem font-thin">
+        <p className="p1 mt-[5.625rem] lg:w-[78.75rem] w-[100%] font-thin">
           At FutureX, we believe in the
           <strong className="font-proximanova font-black"> power of people, collaborative growth</strong>, and
           <strong className="ffont-proximanova font-black"> holistic well-being</strong>. Discover how we create
@@ -16,7 +16,7 @@ const NetWord = () => {
         <div className="section_title mt-[7.5rem]">
           We Build Legacies from People
         </div>
-        <p className="p1 my-[3.75rem] w-[78.75rem]">
+        <p className="p1 my-[3.75rem] lg:w-[78.75rem] w-[100%]">
           In X-Network, dynamic and evolving roles fuel innovation and growth.
           Our strength lies in the fluidity of our network, where founders,
           investors, and advisors seamlessly transition and support one another,
@@ -44,7 +44,7 @@ const NetWord = () => {
         <div className="section_title mt-[7.5rem]">
           Global Reach, Local Impact
         </div>
-        <p className="p1 my-[3.75rem] w-[78.75rem]">
+        <p className="p1 my-[3.75rem] lg:w-[78.75rem] w-[100%]">
           We amplify our reach and influence across the world's most active
           startup ecosystems through strategic global partnerships, opening
           doors to the best minds and resources worldwide.
@@ -52,9 +52,9 @@ const NetWord = () => {
         {/* logo列表 */}
         <div className="flex justify-between">
           <div></div>
-          <div className="w-[59.25rem] h-[25.625rem] flex flex-wrap justify-between">
+          <div className="lg:w-[59.25rem] flex flex-wrap justify-between w-[100%]">
             {logoList.map((item, index) => (
-              <div className="logo_list_bg">
+              <div className="lg:w-[12.5rem] lg:h-[5rem] w-[8.125rem]">
                 <img src={logoList[index]} alt="" />
               </div>
             ))}

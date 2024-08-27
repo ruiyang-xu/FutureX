@@ -6,14 +6,14 @@ import { useIsMoile } from "@/hooks";
 export default function Home() {
   const isMobile = useIsMoile();
   return (
-    <div className="">
+    <div className="max-w-[100vw] overflow-x-hidden">
       <section className="px-12">
-        <div className="text-5xl text-blue font-georgia-b w-40% lg:w-3/4 mt-[8rem] leading-normal  font-black">
+        <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-normal  font-black">
           <span className="text-blueLigh">Founders We </span>Backed
           <span className="text-blueLigh">are</span> Backing
           <span className="text-blueLigh">Us</span>
         </div>
-        <div className="w-[48rem] text-blueLigh text-xl font-thin font-georgia leading-normal tracking-wide mt-[3.75rem]">
+        <div className="w-[80%] text-blueLigh text-xl font-thin font-georgia leading-normal tracking-wide mt-[3.75rem]">
           By connecting 100+ top-tier tech founders of yesterday, today, and
           tomorrow, we're accelerating the future of technology globally.
         </div>
