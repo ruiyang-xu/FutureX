@@ -37,23 +37,23 @@ const Layout: React.VFC = () => {
       className={[
         "flex",
         "justify-between",
-        "px-16",
-        "h-[120px] ",
-        "leading-[120px] ",
+        "h-[7.5rem] ",
+        "leading-[7.5rem] ",
         "items-center",
         "relative",
         "z-50",
+        "main",
         isShow ? "bg-blueBg" : " ",
       ].join(" ")}
     >
-      <div className="w-[15rem] h-14">
+      <div className="w-[15rem] h-[3.375rem]">
         <img src={logoImg} />
       </div>
       {!isMobile && (
-        <div className="flex p-3" id="nav">
+        <div className="flex p-0" id="nav">
           {navList.map((item) => {
             return (
-              <div className="text-2xl  font-proximanova pl-[30px] cursor-pointer">
+              <div className="text-2xl  font-proximanova pl-[1.875rem] cursor-pointer">
                 <NavLink to={item.path} key={item.path} className="relative">
                   {item.name}
                   <div className="h-[2px] bg-black select absolute -bottom-1 left-auto"></div>
@@ -67,7 +67,7 @@ const Layout: React.VFC = () => {
         <div>
           {!isShow && (
             <div
-              className="w-[54px] h-[45px] cursor-pointer rotate-center "
+              className="w-[3.375rem] h-[28.125] cursor-pointer rotate-center "
               onClick={() => {
                 setIsShow(true);
               }}
@@ -77,7 +77,7 @@ const Layout: React.VFC = () => {
           )}
           {isShow && (
             <div
-              className="w-[54px] h-[45px] cursor-pointer rotate-center-revese "
+              className="w-[3.375rem] h-[28.125] cursor-pointer rotate-center-revese "
               onClick={() => {
                 setIsShow(false);
               }}
@@ -88,7 +88,7 @@ const Layout: React.VFC = () => {
         </div>
       )}
       {isShow && isMobile && (
-        <div className="absolute top-[120px] w-[100vw] bg-blueBg right-0 width-show overflow-hidden">
+        <div className="absolute top-[7.5rem] w-[100vw] bg-blueBg right-0 width-show overflow-hidden">
           {navList.map((item, index) => {
             return (
               <NavLink to={item.path} key={item.path}>

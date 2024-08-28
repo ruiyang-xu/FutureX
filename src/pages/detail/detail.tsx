@@ -11,7 +11,7 @@ const Detail = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="min-h-lvh px-12 mb-[7.5rem] mt-[9.375rem] max-w-[75rem]">
+    <div className="main">
       <div className="text-black bg-blueLigh px-8 py-[0.1rem] inline-block uppercase rounded-[1rem] small_cap">
         {data.type}
       </div>

@@ -1,5 +1,6 @@
 import addImg from "@/assets/img/portfolio/add.png";
 import subImg from "@/assets/img/portfolio/sub.png";
+import { useIsMoile } from "@/hooks";
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 interface Itemprops {
   data: PortItemData;
@@ -12,6 +13,7 @@ export default function Item(props: Itemprops) {
   let showBoxRef = useRef<HTMLDivElement>(
     null
   ) as MutableRefObject<HTMLDivElement>;
+  const isMobile = useIsMoile();
 
   const clickBtn = (flag: boolean) => {
     const img = imgRef.current;
@@ -31,25 +33,31 @@ export default function Item(props: Itemprops) {
   };
 
   return (
-    <div className=" py-6 border-t-[1px] border-blueHover items-center">
-      <div className="flex">
-        <div className=" w-[30%] flex justify-center">
-          <div className="w-[15rem] h-[6rem]">
+    <div className="py-6 border-t-[1px] border-blueHover">
+      <div className="flex items-center">
+        <div className=" lg:w-[30%] w-[45%] flex justify-between">
+          <div className="w-[15rem] h-[6rem] ml-8">
             <img src={data.logo} />
           </div>
         </div>
-        <div className="w-[25%]">
+        <div className="lg:w-[25%] w-[45%]">
           <div>
-            <div className=" text-2xl font-medium">{data.partner}</div>
-            <div className="text-base font-thin">{data.year}</div>
+            <div className="text-2xl font-medium font-proximanova">
+              {data.partner}
+            </div>
+            <div className="text-base font-proximanova-l">{data.year}</div>
           </div>
         </div>
-        <div className="flex w-[45%] justify-between items-center">
-          <div className="text-base w-[25.5rem] font-extralight">
-            {data.blurb}
+        {!isMobile && (
+          <div className="w-[35%]">
+            <div className="text-base w-[25.5rem] font-extralight">
+              {data.blurb}
+            </div>
           </div>
+        )}
+        <div className="w-[10%]">
           <div
-            className="w-[2.8125rem] h-[2.8125rem] mr-8 cursor-pointer"
+            className="w-[2.8125rem] h-[2.8125rem] cursor-pointer"
             onClick={() => {
               clickBtn(!isShow);
             }}
@@ -59,20 +67,20 @@ export default function Item(props: Itemprops) {
         </div>
       </div>
       <div
-        className={["ml-[7%]", "mt-4", "h-0", "height-hidden"].join(" ")}
+        className={["ml-8", "h-0", "height-hidden"].join(" ")}
         ref={showBoxRef}
       >
         <div className="text-h3color">
           <span className="uppercase inline-block w-[7rem]">Founder</span>
-          <span>{data.dataDetail.founder}</span>
+          <span className="text-[#666]">{data.dataDetail.founder}</span>
         </div>
         <div className="text-h3color">
           <span className="uppercase inline-block w-[7rem]">Milestone</span>
-          <span>{data.dataDetail.milestone}</span>
+          <span className="text-[#666]">{data.dataDetail.milestone}</span>
         </div>
         <div className="text-h3color">
           <span className="uppercase inline-block w-[7rem]">Website</span>
-          <span>{data.dataDetail.website}</span>
+          <span className="text-[#666]">{data.dataDetail.website}</span>
         </div>
       </div>
     </div>

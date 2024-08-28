@@ -4,10 +4,6 @@ export const navList: VoiceNav[] = [
     name: "all",
   },
   {
-    value: "event",
-    name: "event",
-  },
-  {
     value: "insight",
     name: "insight",
   },
@@ -16,16 +12,8 @@ export const navList: VoiceNav[] = [
     name: "spotlight",
   },
   {
-    value: "seminar",
-    name: "seminar",
-  },
-  {
-    value: "news",
-    name: "news",
-  },
-  {
-    value: "story",
-    name: "story",
+    value: "event",
+    name: "event",
   },
   {
     value: "other",

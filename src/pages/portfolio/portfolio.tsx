@@ -1,21 +1,23 @@
 import { useState } from "react";
 import { navList, fundData } from "./data";
 import Item from "@/components/portfolio/item";
+import { useIsMoile } from "@/hooks";
 const Portfolio = () => {
   let [index, setIndex] = useState<number>(1);
   let [list, setList] = useState<PortItemData[]>(
     fundData.filter((item) => item.type === 1)
   );
+  const isMobile = useIsMoile();
   const changeFun = (e: number) => {
     let list = fundData.filter((item) => item.type === e);
     setIndex(e);
     setList(list);
   };
   return (
-    <section className="min-h-lvh px-12 max-w-[100vw] overflow-x-hidden">
+    <section className="main overflow-x-hidden">
       <div className="py-[9.375rem] h2">Selected Companies</div>
       <div className="flex justify-between align-middle text-center bg-blueBg  font-georgia text-xl">
-        <div className="font-georgia w-[25%] mx-4 my-4 font-bold  py-2">
+        <div className="font-georgia w-[25%] mx-4 my-4  py-2 italic">
           Select by Fund
         </div>
         {navList.map((item) => (
@@ -29,6 +31,7 @@ const Portfolio = () => {
               "mx-4",
               "my-4",
               "py-2",
+              "font-georgia-b",
               index === item.value
                 ? "bg-blueHover text-blue "
                 : "text-blueLigh ",
@@ -44,14 +47,18 @@ const Portfolio = () => {
 
         <div></div>
       </div>
-      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover">
-        <div className="text-base text-blue w-[30%] py-4 text-center uppercase small_cap">
+      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover font-proximanova-b">
+        <div className="text-base text-blue lg:w-[30%] w-[45%] py-4 text-center uppercase small_cap">
           Company
         </div>
-        <div className="text-base  text-blue w-[25%] py-4 uppercase small_cap">
+        <div className="text-base  text-blue lg:w-[25%] w-[45%] py-4 uppercase small_cap font-bold">
           Partnered
         </div>
-        <div className="text-base text-blue w-[45%] py-4 uppercase small_cap">Blurb</div>
+        {!isMobile && (
+          <div className="text-base text-blue lg:w-[35%] w-[10%] py-4 uppercase small_cap">
+            Blurb
+          </div>
+        )}
       </div>
       {list.map((item) => {
         return <Item data={item} key={item.id}></Item>;

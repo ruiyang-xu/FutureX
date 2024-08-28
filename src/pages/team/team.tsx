@@ -6,7 +6,7 @@ const Team = () => {
   const [selectData, setSelectData] = useState<TeamItem>();
   const [showBox, setShowBox] = useState<boolean>(false);
   return (
-    <section className="min-h-lvh px-12 mb-[7.5rem] max-w-[100vw] overflow-x-hidden">
+    <section className="main overflow-x-hidden">
       <div className="py-[9.375rem] h2">Our Team</div>
       <div className="lg:flex justify-between mb-[7.5rem]">
         <div className="w-[37.5rem] text-3xl text-blueLigh font-georgia-b ">

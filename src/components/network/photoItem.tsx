@@ -16,7 +16,7 @@ const PhotoItem = (props: PhotoItem) => {
           setIsShow(true);
         }}
       >
-        <div>
+        <div className=" relative">
           <img src={data.img} alt="" />
         </div>
         <div className=" absolute bottom-4 left-6 z-30">
@@ -25,7 +25,6 @@ const PhotoItem = (props: PhotoItem) => {
             <img src={data.logo} alt="" className="" />
           </div>
         </div>
-        <div className=" absolute top-0 left-0 w-[100%] h-[100%] bg-black opacity-20"></div>
       </div>
       {isShow && (
         <div

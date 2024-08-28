@@ -20,7 +20,7 @@ module.exports = {
       blueBg: "#F1F6FB",
       black: "#000",
       white:"#fff",
-      h3color:"#999999"
+      h3color:"#999999",
     },
     screens: {
       sm: "640px",

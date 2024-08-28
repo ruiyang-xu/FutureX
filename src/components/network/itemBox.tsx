@@ -22,7 +22,7 @@ const ItemBox = (props: PhotoItem) => {
     >
       <div
         className={[
-          "bg-white",
+          "bg-blueBg",
           "px-[5.625rem]",
           "pt-[6.625rem]",
           "pb-[5.625rem]",
@@ -32,18 +32,18 @@ const ItemBox = (props: PhotoItem) => {
           "left-[50%]",
           "-translate-x-[50%]",
           "-translate-y-[50%]",
-          "w-[80%]",
+          "lg:w-[90rem]",
           "z-40",
           "max-h-[80vh]",
           "overflow-y-scroll",
-          "no-scrollbar"
+          "no-scrollbar",
         ].join(" ")}
       >
         <div>
           <div className="w-[17.5rem] h-[18.75rem] mx-auto">
             <img src={data.img} />
           </div>
-          <div className="text-xl-32 w-[17.5rem] text-center font-georgia  mt-4">
+          <div className="text-xl-32 lg:w-[17.5rem] text-center font-georgia  mt-4">
             {data.name}
           </div>
           <div className="w-[9.375rem] h-[3.75rem] m-auto">
@@ -51,8 +51,8 @@ const ItemBox = (props: PhotoItem) => {
           </div>
           <p className="text-sm text-center small_cap">{data.founder}</p>
         </div>
-        <div className="ml-[5.625rem]">
-          <div className="text-xl font-bold">{data.title}</div>
+        <div className="lg:ml-[5.625rem]">
+          <div className="text-xl font-bold lg:text-left text-center">{data.title}</div>
           {data.content.map((item) => {
             return (
               <p key={item} className="text-sm mt-4">

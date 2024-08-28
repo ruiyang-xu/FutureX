@@ -7,21 +7,21 @@ export default function Home() {
   const isMobile = useIsMoile();
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
-      <section className="px-12">
+      <section className="main se_bt">
         <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-normal  font-black">
-          <span className="text-blueLigh">Founders We </span>Backed
-          <span className="text-blueLigh">are</span> Backing
-          <span className="text-blueLigh">Us</span>
+          <span className="text-blueLigh">Founders We </span> Backed
+          <span className="text-blueLigh"> are </span> Backing
+          <span className="text-blueLigh"> Us</span>
         </div>
-        <div className="w-[80%] text-blueLigh text-xl font-thin font-georgia leading-normal tracking-wide mt-[3.75rem]">
+        <div className="w-[80%] text-blueLigh text-xl font-georgia leading-[1.8rem] tracking-[0.1rem] mt-[6rem] letter">
           By connecting 100+ top-tier tech founders of yesterday, today, and
           tomorrow, we're accelerating the future of technology globally.
         </div>
       </section>
-      <section className="lg:mt-[8rem] mt-[13.125rem] px-12">
+      <section className="main se_bt">
         <div className="section_title">Who We Are</div>
-        <div className="lg:grid lg:grid-cols-2  items-center mt-[5.625rem]">
-          <div className="text-2xl font-proximanova font-thin">
+        <div className="lg:grid lg:grid-cols-2  lg:gap-[5.625rem] items-center mt-[3.625rem]">
+          <div className="text-2xl leading-[2.625rem]">
             FutureX Capital invests in visionary founders building
             transformative AI technologies across all stages. With $1B+ AUM and
             deep roots in the US and China tech ecosystems, we're positioned at
@@ -47,43 +47,43 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="lg:mt-[8rem] bg-blueBg py-[4.625rem] px-12 mt-[8rem]">
-        <div className="lg:grid lg:grid-cols-2">
+      <section className=" bg-blueBg  se_bt pt-[5.625rem]">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-[5.625rem] main">
           {!isMobile && (
             <div className="relative">
-              <div className="relative w-[60%] h-[15rem] overflow-hidden">
-                <img src={p1Img} className="w-100 object-fill " />
+              <div className="absolute w-[43%] h-[12.125rem] top-[2rem] overflow-hidden">
+                <img src={p1Img} className="object-contain" />
               </div>
-              <div className="relative w-[60%] -top-8 left-[16rem] z-10 h-[15rem] overflow-hidden">
-                <img src={p2Img} className="w-100 object-fill " />
+              <div className="absolute w-[43%] top-[6rem] left-[11rem] z-10 h-[15rem] overflow-hidden">
+                <img src={p2Img} className="object-contain" />
               </div>
-              <div className="relative w-[60%] -top-24 h-[15rem] overflow-hidden">
-                <img src={p3Img} className="w-100 object-none " />
+              <div className="absolute w-[43%] top-[16rem] h-[15rem] overflow-hidden">
+                <img src={p3Img} className="object-contain" />
               </div>
             </div>
           )}
           <div>
             <p className="section_title">X-Network</p>
-            <p className="text-blue font-extralight text-base">
+            <p className="text-blue font-extralight text-base se_mb_90">
               Unparalleled Ecosystem of World-Class Founders
             </p>
-            <p className="mt-10 w-[32rem] text-2xl font-light">
+            <p className="text-2xl font-light se_mb_90">
               We've cultivated a self-reinforcing ecosystem where success breeds
               success. More than 50% of our AUM comes from tech pioneers we once
               supported – a testament to the trust we've built and the value we
               deliver.
             </p>
-            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem] mt-24 font-normal text-xl">
+            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem]  font-normal text-xl bg-white se_mb_90">
               Learn More
             </button>
           </div>
         </div>
       </section>
-      <section className="lg:mt-[12rem] mt-[8rem] px-12 mb-[12rem]">
-        <div className="lg:grid lg:grid-cols-2">
+      <section className="main se_bt">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-[5.625rem]">
           <div>
             <div className="section_title">Our Flywheel</div>
-            <div className="mt-16 lg:w-3/4 text-2xl font-light">
+            <div className="mt-16 text-2xl font-light">
               Trust shapes our fluid ecosystem, where advisors, founders, and
               investors seamlessly evolve and interchange roles. This dynamic
               flow of AI expertise continuously enhances our insights and

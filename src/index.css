@@ -5,19 +5,28 @@
 
 @layer components {
   .home_big {
-    @apply text-3xl font-bold font-georgia text-center;
+    @apply text-3xl font-bold font-georgia-b text-center;
   }
   .home_big_small {
-    @apply text-sm mt-2 w-[14.5rem] text-center mx-auto font-light;
+    @apply text-sm mt-2 w-[14.5rem] text-center mx-auto font-bold;
   }
   .section_title {
     @apply text-blue text-3xl font-georgia-b font-bold;
   }
   .h2 {
-    @apply text-5xl font-proximanova;
+    @apply lg:text-5xl font-proximanova text-4xl;
   }
   .p1 {
     @apply text-2xl font-proximanova-l font-light;
+  }
+  .main{
+    @apply lg:max-w-[90rem] w-[100%] mx-auto px-[5.625rem] 
+  }
+  .se_bt{
+    @apply mb-[7.5rem]
+  }
+  .se_mb_90{
+    @apply mb-[5.725rem]
   }
 }
 
@@ -30,6 +39,10 @@
   @font-face {
     font-family: "proximanoval";
     src: url("./assets/fonts/proximanova_light.otf");
+  }
+  @font-face {
+    font-family: "proximanovab";
+    src: url("./assets/fonts/proximanova_bold.otf");
   }
 
   @font-face {
@@ -54,6 +67,9 @@
   .font-proximanova-l {
     font-family: proximanoval, "Times New Roman", Times, serif;
   }
+  .font-proximanova-b {
+    font-family: proximanovab, "Times New Roman", Times, serif;
+  }
   #nav a.active {
     text-decoration: solid;
   }
@@ -70,7 +86,7 @@
   }
   body,
   html {
-    font-family: proximanova, "Times New Roman", Times, serif;
+    font-family: proximanoval, "Times New Roman", Times, serif;
     width: 100vw;
     overflow-y: scroll;
   }
