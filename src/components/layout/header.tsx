@@ -47,7 +47,14 @@ const Layout: React.VFC = () => {
       ].join(" ")}
     >
       <div className="w-[15rem] h-[3.375rem]">
-        <img src={logoImg} />
+        <NavLink
+          to="/home"
+          onClick={() => {
+            setIsShow(false);
+          }}
+        >
+          <img src={logoImg} />
+        </NavLink>
       </div>
       {!isMobile && (
         <div className="flex p-0" id="nav">

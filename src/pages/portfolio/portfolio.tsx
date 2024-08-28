@@ -14,7 +14,7 @@ const Portfolio = () => {
     setList(list);
   };
   return (
-    <section className="main overflow-x-hidden">
+    <section className="main overflow-x-hidden se_bt">
       <div className="py-[9.375rem] h2">Selected Companies</div>
       <div className="flex justify-between align-middle text-center bg-blueBg  font-georgia text-xl">
         <div className="font-georgia w-[25%] mx-4 my-4  py-2 italic">

@@ -45,6 +45,7 @@ export const fundData: PortItemData[] = [
       founder: "Yiming Zhang",
       milestone: "Founded 2012 | 1.9 billion MAU across 150 countries by 2021",
       website: "bytedance.com/en/",
+      url: "https://www.bytedance.com/en/",
     },
   },
   {
@@ -59,6 +60,7 @@ export const fundData: PortItemData[] = [
       milestone:
         "Founded 2010 | IPO 2018 (OTCMKTS: XIACY) | Fortune Global 500 by 2019",
       website: "mi.com",
+      url: "https://www.mi.com/us/",
     },
   },
   {
@@ -72,6 +74,7 @@ export const fundData: PortItemData[] = [
       founder: "Lei Jun",
       milestone: "Founded 2012 | IPO 2020 (NASDAQ: KC) & 2022 (3896.HK)",
       website: "en.ksyun.com",
+      url: "https://en.ksyun.com/",
     },
   },
   {
@@ -87,6 +90,7 @@ export const fundData: PortItemData[] = [
       milestone:
         "IPO in Hong Kong, 2018; currently the largest food delivery app globally by revenue and usage",
       website: "Meituan.com",
+      url: "https://www.meituan.com/en-US/about-us",
     },
   },
   {
@@ -100,6 +104,7 @@ export const fundData: PortItemData[] = [
       founder: "Ed Huang, Max Liu, Dylan Cui",
       milestone: "Founded 2015 | TiDB adopted by 3,000+ companies by 2022",
       website: "pingcap.com",
+      url: "https://cn.pingcap.com/",
     },
   },
   {
@@ -113,6 +118,7 @@ export const fundData: PortItemData[] = [
       founder: "Andy (Jin) Yin",
       milestone: "Founded 2018 | 1,000+ clients by 2023",
       website: "cloudwise.ai",
+      url: "https://www.cloudwise.ai/",
     },
   },
   {
@@ -126,6 +132,7 @@ export const fundData: PortItemData[] = [
       founder: "Xinhong Wu",
       milestone: "Founded 2019 | 42M+ MAU and 2M+ paying customers by 2024",
       website: "Pixocial.com",
+      url: "https://pixocial.com/",
     },
   },
   {
@@ -139,6 +146,7 @@ export const fundData: PortItemData[] = [
       founder: "Hua Mao",
       milestone: "Founded 2023",
       website: "Platox.ai",
+      url: "https://platox.ai/",
     },
   },
   {
@@ -153,6 +161,7 @@ export const fundData: PortItemData[] = [
       founder: "Eric Shi",
       milestone: "Founded 2022",
       website: "fastmoss.com",
+      url: "https://www.fastmoss.com/",
     },
   },
   {
@@ -167,6 +176,7 @@ export const fundData: PortItemData[] = [
       founder: "Dr. Glenn Ge, Dr. Miao Hu",
       milestone: "XXX",
       website: "tetramem.com",
+      url: "https://www.tetramem.com/",
     },
   },
   {
@@ -180,6 +190,7 @@ export const fundData: PortItemData[] = [
       founder: "Johnson Shan, Wilson Liu",
       milestone: "Founded 2016 | IPO 2024 (HKG: 2533)",
       website: "bst.ai",
+      url: "https://www.bst.ai",
     },
   },
   {
@@ -193,6 +204,7 @@ export const fundData: PortItemData[] = [
       founder: "Xu Lei, Justin Song",
       milestone: "Founded 2016 | $110M Series B in 2023",
       website: "nullmax.ai",
+      url: "https://www.nullmax.ai/",
     },
   },
   {
@@ -207,6 +219,7 @@ export const fundData: PortItemData[] = [
       milestone:
         "Founded 2020 | 10+ GWh of battery assets under management by 2024",
       website: "wnpower.cn",
+      url: "http://www.wnpower.cn/",
     },
   },
   {
@@ -220,6 +233,7 @@ export const fundData: PortItemData[] = [
       founder: "Qingfeng Feng",
       milestone: "Founded 2016 | IPO 2024 (Nasdaq: LOT)",
       website: "lotuscars.com",
+      url: "https://www.lotuscars.com",
     },
   },
   {
@@ -233,6 +247,7 @@ export const fundData: PortItemData[] = [
       founder: "Xu Yingqi",
       milestone: "Founded 2019 | Launched multiple AI platforms by 2024",
       website: "greatbay-bio.com",
+      url: "https://www.greatbay-bio.com/",
     },
   },
   {
@@ -247,6 +262,7 @@ export const fundData: PortItemData[] = [
       milestone:
         "Founded 2015 | 40,000+ certified counselors and 30+ million users by 2024",
       website: "ydl.com",
+      url: "https://www.ydl.com/",
     },
   },
   {
@@ -260,6 +276,7 @@ export const fundData: PortItemData[] = [
       founder: "William Li",
       milestone: "Founded 2014 | IPO 2018 (NYSE: NIO)",
       website: "nio.com",
+      url: "https://www.nio.cn/",
     },
   },
   {
@@ -275,6 +292,7 @@ export const fundData: PortItemData[] = [
       milestone:
         "Founded May 2023 | Mistral 7B in Sep 2023 | Mixtral 8x7B in Dec 2023 | Mistral Large in Feb 2024",
       website: "mistral.ai",
+      url: "https://mistral.ai/",
     },
   },
 ];

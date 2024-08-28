@@ -12,6 +12,7 @@ declare interface PortDetail {
   founder?: string;
   milestone: string;
   website: string;
+  url?: string;
 }
 
 declare interface NetWordPhotoData {
@@ -58,7 +59,7 @@ declare interface NewDetail {
   detail: string;
 }
 
-declare interface VoiceNav{
-  name:string;
-  value:string
+declare interface VoiceNav {
+  name: string;
+  value: string;
 }

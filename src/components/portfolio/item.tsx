@@ -71,16 +71,24 @@ export default function Item(props: Itemprops) {
         ref={showBoxRef}
       >
         <div className="text-h3color">
-          <span className="uppercase inline-block w-[7rem]">Founder</span>
+          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+            Founder
+          </span>
           <span className="text-[#666]">{data.dataDetail.founder}</span>
         </div>
         <div className="text-h3color">
-          <span className="uppercase inline-block w-[7rem]">Milestone</span>
+          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+            Milestone
+          </span>
           <span className="text-[#666]">{data.dataDetail.milestone}</span>
         </div>
         <div className="text-h3color">
-          <span className="uppercase inline-block w-[7rem]">Website</span>
-          <span className="text-[#666]">{data.dataDetail.website}</span>
+          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+            Website
+          </span>
+          <a href={data.dataDetail.url} className=" underline">
+            <span className="text-[#666]">{data.dataDetail.website}</span>
+          </a>
         </div>
       </div>
     </div>
