@@ -47,18 +47,20 @@ const Portfolio = () => {
 
         <div></div>
       </div>
-      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover font-proximanova-b">
-        <div className="text-base text-blue lg:w-[30%] w-[45%] py-4 text-center uppercase small_cap">
+      <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover font-proximanova-b px-[1.875rem] justify-between">
+        <div className="text-base text-blue w-[15rem]  py-4 text-center uppercase small_cap">
           Company
         </div>
-        <div className="text-base  text-blue lg:w-[25%] w-[45%] py-4 uppercase small_cap font-bold">
+        <div className="text-base  text-blue  w-[6.75rem] text-left py-4 uppercase small_cap font-bold">
           Partnered
         </div>
         {!isMobile && (
-          <div className="text-base text-blue lg:w-[35%] w-[10%] py-4 uppercase small_cap">
+          <div className="text-base text-blue  w-[22.5rem] text-left py-4 uppercase small_cap">
             Blurb
           </div>
         )}
+         <div className="w-[2.8125rem]">
+        </div>
       </div>
       {list.map((item) => {
         return <Item data={item} key={item.id}></Item>;

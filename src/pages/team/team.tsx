@@ -6,21 +6,22 @@ const Team = () => {
   const [selectData, setSelectData] = useState<TeamItem>();
   const [showBox, setShowBox] = useState<boolean>(false);
   return (
-    <section className="main overflow-x-hidden">
+    <section className="main">
       <div className="py-[9.375rem] h2">Our Team</div>
-      <div className="lg:flex justify-between mb-[7.5rem]">
-        <div className="w-[37.5rem] text-3xl text-blueLigh font-georgia-b ">
-          A Vision Sparked,<br></br> A Team United
+      <div className="lg:flex lg:justify-between gap-[3.75rem] mb-[7.5rem]">
+        <div className="w-[100%] text-3xl text-blueLigh font-georgia-b ">
+          A Vision Sparked, A Team United
         </div>
-        <div className="text-sm lg:w-[40.5rem] w-[100%]">
+        <div className="text-sm  w-[100%]">
           <div
             className={[
               "relative",
               "overflow-hidden",
+              "text-xl",
               !showLess ? "h-[14.5rem]" : "",
             ].join(" ")}
           >
-            <p className="mt-8">
+            <p className="">
               In August 2017, a Silicon Valley trip ignited a vision in Cynthia
               Zhang's mind: the AI revolution was coming, and with it,
               unprecedented opportunities. Driven by this insight, she left her
@@ -71,7 +72,7 @@ const Team = () => {
           return (
             <div
               key={item.id}
-              className="lg:w-1/4 w-1/2 p-8 cursor-pointer"
+              className="w-[17.5628rem] cursor-pointer"
               onClick={() => {
                 setSelectData(item);
                 setShowBox(true);
@@ -83,7 +84,9 @@ const Team = () => {
               <div className="text-2xl text-center  font-georgia mt-[1.827rem]">
                 {item.name}
               </div>
-              <div className="text-sm uppercase text-center small_cap">{item.pos}</div>
+              <div className="text-sm uppercase text-center small_cap">
+                {item.pos}
+              </div>
             </div>
           );
         })}

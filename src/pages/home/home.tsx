@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
       <section className="main se_bt">
-        <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-normal  font-black">
+        <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-[5.125rem]  font-black">
           <span className="text-blueLigh">Founders We </span> Backed
           <span className="text-blueLigh"> are </span> Backing
           <span className="text-blueLigh"> Us</span>
         </div>
-        <div className="w-[80%] text-blueLigh text-xl font-georgia leading-[1.8rem] tracking-[0.1rem] mt-[6rem] letter">
+        <div className="w-[80%] text-blueLigh text-xl font-normal leading-[1.8rem] tracking-[0.1rem] mt-[5.625rem] letter">
           By connecting 100+ top-tier tech founders of yesterday, today, and
           tomorrow, we're accelerating the future of technology globally.
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <div className="lg:row-span-2 lg:flex lg:items-center">
               <div>
                 <p className="home_big">20</p>
-                <p className="home_big_small">Years of Deep Netwo rk</p>
+                <p className="home_big_small">Years of Deep Network</p>
               </div>
             </div>
           </div>
@@ -51,14 +51,14 @@ export default function Home() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-[5.625rem] main">
           {!isMobile && (
             <div className="relative">
-              <div className="absolute w-[43%] h-[12.125rem] top-[2rem] overflow-hidden">
-                <img src={p1Img} className="object-contain" />
+              <div className="absolute w-[60%] h-[11.875rem] top-[2rem] overflow-hidden">
+                <img src={p1Img} className="object-cover h-[11.875rem]" />
               </div>
-              <div className="absolute w-[43%] top-[6rem] left-[11rem] z-10 h-[15rem] overflow-hidden">
-                <img src={p2Img} className="object-contain" />
+              <div className="absolute w-[58%] top-[11rem] left-[16rem] z-10 h-[15rem] overflow-hidden">
+                <img src={p2Img} className="object-cover h-[15rem]" />
               </div>
-              <div className="absolute w-[43%] top-[16rem] h-[15rem] overflow-hidden">
-                <img src={p3Img} className="object-contain" />
+              <div className="absolute w-[49%] top-[20rem] h-[11.875rem] overflow-hidden">
+                <img src={p3Img} className="object-cover  h-[11.875rem]" />
               </div>
             </div>
           )}
@@ -73,7 +73,7 @@ export default function Home() {
               supported – a testament to the trust we've built and the value we
               deliver.
             </p>
-            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem]  font-normal text-xl bg-white se_mb_90">
+            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem]  font-normal text-xl bg-white se_mb_90 font-proximanova-m">
               Learn More
             </button>
           </div>

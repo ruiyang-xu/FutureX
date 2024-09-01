@@ -24,8 +24,8 @@ const Box = (props: BoxProps) => {
         className={[
           "bg-white",
           "px-[5.625rem]",
-          "pt-[6.625rem]",
           "pb-[5.625rem]",
+          "pt-[9.375rem]",
           "lg:flex",
           "fixed",
           "top-[50%]",
@@ -34,12 +34,10 @@ const Box = (props: BoxProps) => {
           "-translate-y-[50%]",
           "w-[80%]",
           "z-40",
-          "max-h-[80vh]",
-          "overflow-y-scroll",
           "no-scrollbar"
         ].join(" ")}
       >
-        <div>
+        <div className="">
           <div className="m-auto w-[17.5rem] h-[20.375rem]">
             <img src={data?.img} alt="" />
           </div>
@@ -58,7 +56,7 @@ const Box = (props: BoxProps) => {
           })}
         </div>
         <div
-          className="absolute top-[3rem] right-[5rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
+          className="absolute top-[2.8125rem] right-[5.625rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
           onClick={() => {
             props.close();
           }}

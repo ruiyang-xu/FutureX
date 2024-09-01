@@ -19,14 +19,14 @@
   .p1 {
     @apply text-2xl font-proximanova-l font-light;
   }
-  .main{
-    @apply lg:max-w-[90rem] w-[100%] mx-auto px-[5.625rem] 
+  .main {
+    @apply lg:max-w-[90rem] w-[100%] mx-auto px-[5.625rem];
   }
-  .se_bt{
-    @apply mb-[7.5rem]
+  .se_bt {
+    @apply mb-[7.5rem];
   }
-  .se_mb_90{
-    @apply mb-[5.725rem]
+  .se_mb_90 {
+    @apply mb-[5.725rem];
   }
 }
 
@@ -39,6 +39,11 @@
   @font-face {
     font-family: "proximanoval";
     src: url("./assets/fonts/proximanova_light.otf");
+  }
+
+  @font-face {
+    font-family: "proximanovam";
+    src: url("./assets/fonts/ProximaNova-Medium.otf");
   }
   @font-face {
     font-family: "proximanovab";
@@ -67,8 +72,14 @@
   .font-proximanova-l {
     font-family: proximanoval, "Times New Roman", Times, serif;
   }
+  .font-proximanova-m {
+    font-family: proximanovam, "Times New Roman", Times, serif;
+  }
   .font-proximanova-b {
     font-family: proximanovab, "Times New Roman", Times, serif;
+  }
+  .font-normal {
+    font-family: "Times New Roman", Times, serif;
   }
   #nav a.active {
     text-decoration: solid;
@@ -86,7 +97,7 @@
   }
   body,
   html {
-    font-family: proximanoval, "Times New Roman", Times, serif;
+    font-family: proximanova, "Times New Roman", Times, serif;
     width: 100vw;
     overflow-y: scroll;
   }

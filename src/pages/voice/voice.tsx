@@ -36,6 +36,7 @@ const Voice = () => {
                 "text-[#666]",
                 "cursor-pointer",
                 "small_cap",
+                "proximanova",
                 select === item.value ? "text-blue underline" : "",
               ].join(" ")}
               key={item.value}

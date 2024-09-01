@@ -9,7 +9,7 @@ const NetWord = () => {
     <div className="mxa-w-[100vw] overflow-x-visible">
       <section className="px-14 main">
         <div className="h2 mt-[9.375rem]">X-Network</div>
-        <p className="p1 mt-[5.625rem] lg:w-[78.75rem] w-[100%] font-thin">
+        <p className="p1 mt-[5.625rem] w-[100%] font-thin">
           At FutureX, we believe in the
           <span className="font-proximanova-b">
             &nbsp;power of people, collaborative growth
@@ -24,7 +24,7 @@ const NetWord = () => {
         <div className="section_title mt-[7.5rem]">
           We Build Legacies from People
         </div>
-        <p className="p1 my-[3.75rem] lg:w-[78.75rem] w-[100%]">
+        <p className="p1 my-[3.75rem]  w-[100%]">
           In X-Network, dynamic and evolving roles fuel innovation and growth.
           Our strength lies in the fluidity of our network, where founders,
           investors, and advisors seamlessly transition and support one another,
@@ -35,8 +35,8 @@ const NetWord = () => {
         <div className="main">
           {/* 照片墙 */}
           <div className="lg:flex lg:justify-between ">
-            {!isMobile && <div className="lg:w-3/5"></div>}
-            <div className="grid lg:grid-cols-4 grid-cols-2 gap-6">
+            {!isMobile && <div></div>}
+            <div className="flex gap-[20px]">
               {popleData.map((item, index) => {
                 return (
                   <div
@@ -63,7 +63,7 @@ const NetWord = () => {
           {/* logo列表 */}
           <div className="flex justify-between">
             <div></div>
-            <div className="lg:w-[59.25rem] grid lg:grid-cols-4 grid-cols-2 gap-[1.875rem]">
+            <div className="lg:w-[56.25rem] grid lg:grid-cols-4 grid-cols-2 gap-[1.875rem]">
               {logoList.map((item, index) => (
                 <div className="">
                   <img src={logoList[index]} alt="" />

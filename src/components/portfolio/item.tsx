@@ -33,14 +33,12 @@ export default function Item(props: Itemprops) {
   };
 
   return (
-    <div className="py-6 border-t-[1px] border-blueHover">
-      <div className="flex items-center">
-        <div className=" lg:w-[30%] w-[45%] flex justify-between">
-          <div className="w-[15rem] h-[6rem] ml-8">
-            <img src={data.logo} />
-          </div>
+    <div className="py-6 border-t-[1px] border-blueHover px-[1.875rem]">
+      <div className="flex items-center justify-between">
+        <div className=" w-[15rem] h-[6rem]">
+          <img src={data.logo} />
         </div>
-        <div className="lg:w-[25%] w-[45%]">
+        <div className="w-[6.75rem]">
           <div>
             <div className="text-2xl font-medium font-proximanova">
               {data.partner}
@@ -49,46 +47,43 @@ export default function Item(props: Itemprops) {
           </div>
         </div>
         {!isMobile && (
-          <div className="w-[35%]">
+          <div className="w-[22.5rem]">
             <div className="text-base w-[25.5rem] font-extralight">
               {data.blurb}
             </div>
           </div>
         )}
-        <div className="w-[10%]">
-          <div
-            className="w-[2.8125rem] h-[2.8125rem] cursor-pointer"
-            onClick={() => {
-              clickBtn(!isShow);
-            }}
-          >
-            <img src={img} ref={imgRef}></img>
-          </div>
+        <div
+          className="w-[2.8125rem] h-[2.8125rem] cursor-pointer"
+          onClick={() => {
+            clickBtn(!isShow);
+          }}
+        >
+          <img src={img} ref={imgRef}></img>
         </div>
       </div>
-      <div
-        className={["ml-8", "h-0", "height-hidden"].join(" ")}
-        ref={showBoxRef}
-      >
-        <div className="text-h3color">
-          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
-            Founder
-          </span>
-          <span className="text-[#666]">{data.dataDetail.founder}</span>
-        </div>
-        <div className="text-h3color">
-          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
-            Milestone
-          </span>
-          <span className="text-[#666]">{data.dataDetail.milestone}</span>
-        </div>
-        <div className="text-h3color">
-          <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
-            Website
-          </span>
-          <a href={data.dataDetail.url} className=" underline">
-            <span className="text-[#666]">{data.dataDetail.website}</span>
-          </a>
+      <div className={["ml-8", "height-hidden"].join(" ")} ref={showBoxRef}>
+        <div className="mt-[1.875rem] pb-[3.75rem]">
+          <div className="text-h3color">
+            <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+              Founder
+            </span>
+            <span className="text-[#666]">{data.dataDetail.founder}</span>
+          </div>
+          <div className="text-h3color">
+            <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+              Milestone
+            </span>
+            <span className="text-[#666]">{data.dataDetail.milestone}</span>
+          </div>
+          <div className="text-h3color">
+            <span className="uppercase inline-block w-[10rem] lg:w-[8rem]">
+              Website
+            </span>
+            <a href={data.dataDetail.url} className=" underline">
+              <span className="text-[#666]">{data.dataDetail.website}</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

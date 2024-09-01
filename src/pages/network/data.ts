@@ -38,6 +38,7 @@ import lg12 from "@/assets/img/netword/lg12.png";
 import lg13 from "@/assets/img/netword/lg13.png";
 import lg14 from "@/assets/img/netword/lg14.png";
 import lg15 from "@/assets/img/netword/lg15.png";
+import list01 from "@/assets/img/netword/list01.png";
 import list02 from "@/assets/img/netword/list02.png";
 import list03 from "@/assets/img/netword/list03.png";
 import list04 from "@/assets/img/netword/list04.png";
@@ -175,20 +176,20 @@ export const cultivating: NetWordListItem[] = [
     title: "Seminars and Expert Sessions",
     content:
       "In 2023 alone, we hosted 30+ events, engaging more than 1,000 participants in cutting-edge discussions and knowledge sharing.",
-    img: list02,
+    img: list01,
   },
   {
     id: 2,
-    title: "Quarterly FutureX Dinners",
+    title: "Global Tech Tours",
     content:
-      "Held in major hubs like Beijing, Hong Kong, Singapore, and Silicon Valley, these gatherings foster collaboration among founders, industry experts, and investors.In 2023 alone, we hosted 30+ events, engaging more than 1,000 participants in cutting-edge discussions and knowledge sharing.",
+      "We invite LPs and founders to join us on curated tours to regions like the Middle East, Silicon Valley, Southeast Asia, and China. These journeys offer firsthand exploration of diverse markets and refresh our collective frontline knowledge.",
     img: list02,
   },
   {
     id: 3,
-    title: "Annual General Meetings",
+    title: "Quarterly FutureX Dinners",
     content:
-      "Every 1-2 years, we convene to discuss trends and shape the future of technology and investment.",
+      "Held in major hubs like Beijing, Hong Kong, Singapore, and Silicon Valley, these gatherings foster collaboration among founders, industry experts, and investors.",
     img: list03,
   },
   {
@@ -196,7 +197,7 @@ export const cultivating: NetWordListItem[] = [
     title: "Global Tech Tours",
     content:
       "We invite LPs and founders to join us on curated tours to regions like the Middle East, Silicon Valley, Southeast Asia, and China. These journeys offer firsthand exploration of diverse markets and refresh our collective frontline knowledge.",
-    img: list03,
+    img: list04,
   },
 ];
 
@@ -206,20 +207,20 @@ export const business: NetWordListItem[] = [
     title: "Charity Initiatives",
     content:
       "Since 2018, FutureX has been committed to supporting charitable foundations such as Adream. In addition to our own donations, we engage 10-20 investors annually in charitable events and organize impactful community activities.",
-    img: list04,
+    img: list05,
   },
   {
     id: 2,
     title: "Life Academy",
     content:
       'We embrace the "Manual of Living" principles, fostering qualities of love, care, and forgiveness. Since 2016, we\'ve introduced over 100 founders and colleagues to Life Academy courses, with our team volunteering 20+ hours annually to support this initiative.',
-    img: list05,
+    img: list06,
   },
   {
     id: 3,
     title: "Holistic Health Practices",
     content:
       "We offer a range of health programs that nurture both body and mind, from traditional Bigu practices promoting detoxification and self-discovery to innovative Tongue Acupuncture treatments. These initiatives support our network members in achieving a balanced lifestyle that enhances both professional and personal growth.",
-    img: list06,
+    img: list07,
   },
 ];
