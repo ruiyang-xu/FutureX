@@ -24,8 +24,7 @@ const ItemBox = (props: PhotoItem) => {
         className={[
           "bg-blueBg",
           "px-[5.625rem]",
-          "pt-[6.625rem]",
-          "pb-[5.625rem]",
+          "py-[5.625rem]",
           "lg:flex",
           "fixed",
           "top-[50%]",
@@ -34,8 +33,6 @@ const ItemBox = (props: PhotoItem) => {
           "-translate-y-[50%]",
           "lg:w-[90rem]",
           "z-40",
-          "max-h-[80vh]",
-          "overflow-y-scroll",
           "no-scrollbar",
         ].join(" ")}
       >

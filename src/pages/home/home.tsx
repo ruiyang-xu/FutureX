@@ -90,7 +90,7 @@ export default function Home() {
               strategies.
             </div>
           </div>
-          <div className="w-4/5 text-center mx-auto pt-16 lg:pt-0">
+          <div className="h-[23.9375rem] text-center mx-auto pt-16 lg:pt-0">
             <img src={flyWheel} />
           </div>
         </div>

@@ -63,9 +63,9 @@ const NetWord = () => {
           {/* logo列表 */}
           <div className="flex justify-between">
             <div></div>
-            <div className="lg:w-[56.25rem] grid lg:grid-cols-4 grid-cols-2 gap-[1.875rem]">
+            <div className="lg:w-[56.25rem] flex flex-wrap gap-[1.875rem] w-[100%] justify-center">
               {logoList.map((item, index) => (
-                <div className="">
+                <div className="w-[12.5rem] h-[5rem]">
                   <img src={logoList[index]} alt="" />
                 </div>
               ))}
