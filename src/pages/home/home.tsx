@@ -61,7 +61,7 @@ export default function Home() {
               <div className="relative w-[59%] -top-[5.9375rem] h-[11.875rem] overflow-hidden">
                 <img src={p3Img} className="object-cover  h-[11.875rem]" />
               </div> */}
-              <img src={image} className="object-cover h-[30rem]" />
+              <img src={image} className="" />
             </div>
           )}
           <div className="w-[36.5625rem]">

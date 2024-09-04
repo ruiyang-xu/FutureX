@@ -9,19 +9,20 @@ const Item = (props: ItemProps) => {
       className={[
         "lg:flex",
         "lg:justify-center",
+        "lg:gap-[5.625rem]",
         "items-center",
         "mt-[5.625rem]",
+        "w-full",
+        "basis-0",
         props.flex === "left" ? "lg:flew-row" : "lg:flex-row-reverse",
       ].join(" ")}
     >
       <div
         className={[
-          "lg:w-[36.5625rem]",
-          props.flex === "left" && "mr-[5.625rem]",
-          "w-[100%]",
+          "lg:flex-1",
         ].join(" ")}
       >
-        <div className="text-1xl font-proximanova w-[36.5625rem]">
+        <div className="text-1xl font-proximanova">
           {data.title}
         </div>
         <p className="text-base font-proximanova-l font-light mt-[1.875rem] md:mb-8">
@@ -31,11 +32,14 @@ const Item = (props: ItemProps) => {
       <div
         className={[
           "h-[12.75rem]",
-          "w-[100%]",
           "lg:mt-0",
           "mt-4",
+          "lg:flex-1",
           "overflow-hidden",
+          "w-full",
+          "basis-0",
         ].join(" ")}
+        
       >
         <img src={data.img} className="h-[12.75rem] object-cover" />
       </div>
