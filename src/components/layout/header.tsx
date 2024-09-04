@@ -3,7 +3,7 @@ import logoImg from "@/assets/img/header/logo.png";
 import menuImg from "@/assets/img/header/menu.png";
 import closeImg from "@/assets/img/header/close.png";
 import { useIsMoile } from "@/hooks/index";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navList = [
   {
@@ -31,7 +31,14 @@ const navList = [
 const Layout: React.VFC = () => {
   const isMobile = useIsMoile();
   const [isShow, setIsShow] = useState(false);
-
+  useEffect(() => {
+    var html_ = document.getElementsByTagName("html")[0];
+    if (window.innerWidth < 1080) {
+      html_.style.fontSize = "10px";
+    } else {
+      html_.style.fontSize = "16px";
+    }
+  }, []);
   return (
     <div
       className={[

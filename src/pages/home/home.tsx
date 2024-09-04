@@ -1,6 +1,7 @@
 import p1Img from "@/assets/img/home/p1.png";
 import p2Img from "@/assets/img/home/p2.png";
 import p3Img from "@/assets/img/home/p3.png";
+import image from "@/assets/img/home/image.png";
 import flyWheel from "@/assets/img/home/flywheel.png";
 import { useIsMoile } from "@/hooks";
 export default function Home() {
@@ -48,21 +49,22 @@ export default function Home() {
         </div>
       </section>
       <section className=" bg-blueBg  se_bt pt-[5.625rem]">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-[5.625rem] main">
+        <div className="lg:flex  lg:items-center lg:gap-[5.625rem] main">
           {!isMobile && (
-            <div className="relative">
-              <div className="absolute w-[60%] h-[11.875rem] top-[2rem] overflow-hidden">
+            <div className="relative w-[36.5625rem] h-[30rem]">
+              {/* <div className="relative w-[73%] h-[11.875rem]  overflow-hidden">
                 <img src={p1Img} className="object-cover h-[11.875rem]" />
               </div>
-              <div className="absolute w-[58%] top-[11rem] left-[16rem] z-10 h-[15rem] overflow-hidden">
+              <div className="relative w-[66%]  -top-[2.81255rem] left-[16.625rem] z-10 h-[15rem] overflow-hidden">
                 <img src={p2Img} className="object-cover h-[15rem]" />
               </div>
-              <div className="absolute w-[49%] top-[20rem] h-[11.875rem] overflow-hidden">
+              <div className="relative w-[59%] -top-[5.9375rem] h-[11.875rem] overflow-hidden">
                 <img src={p3Img} className="object-cover  h-[11.875rem]" />
-              </div>
+              </div> */}
+              <img src={image} className="object-cover h-[30rem]" />
             </div>
           )}
-          <div>
+          <div className="w-[36.5625rem]">
             <p className="section_title">X-Network</p>
             <p className="text-blue font-extralight text-base se_mb_90">
               Unparalleled Ecosystem of World-Class Founders
@@ -73,15 +75,15 @@ export default function Home() {
               supported – a testament to the trust we've built and the value we
               deliver.
             </p>
-            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem]  font-normal text-xl bg-white se_mb_90 font-proximanova-m">
+            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem] text-xl bg-white se_mb_90 font-proximanova-m">
               Learn More
             </button>
           </div>
         </div>
       </section>
       <section className="main se_bt">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-[5.625rem]">
-          <div>
+        <div className="lg:flex lg:align-middle lg:gap-[5.625rem]">
+          <div className="flex-1">
             <div className="section_title">Our Flywheel</div>
             <div className="mt-16 text-2xl font-light">
               Trust shapes our fluid ecosystem, where advisors, founders, and
@@ -90,8 +92,8 @@ export default function Home() {
               strategies.
             </div>
           </div>
-          <div className="h-[23.9375rem] text-center mx-auto pt-16 lg:pt-0">
-            <img src={flyWheel} />
+          <div className="h-[23.9375rem] text-center mx-auto pt-16 lg:pt-0 flex-1">
+            <img src={flyWheel} className="object-cover h-full" />
           </div>
         </div>
       </section>

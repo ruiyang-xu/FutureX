@@ -37,7 +37,7 @@ const Item = (props: ItemProps) => {
           "overflow-hidden",
         ].join(" ")}
       >
-        <img src={data.img} className="h-[12.75rem]" />
+        <img src={data.img} className="h-[12.75rem] object-cover" />
       </div>
     </div>
   );

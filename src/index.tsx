@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Header from "@/components/layout/header";
 import Home from "@/pages/home/home";
@@ -17,6 +16,7 @@ import Detail from "@/pages/detail/detail";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 
 root.render(
   <React.StrictMode>
@@ -35,6 +35,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-
-
-reportWebVitals();

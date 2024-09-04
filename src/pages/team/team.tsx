@@ -5,11 +5,12 @@ const Team = () => {
   const [showLess, setShowLess] = useState<boolean>(false);
   const [selectData, setSelectData] = useState<TeamItem>();
   const [showBox, setShowBox] = useState<boolean>(false);
+
   return (
     <section className="main">
       <div className="py-[9.375rem] h2">Our Team</div>
       <div className="lg:flex lg:justify-between gap-[3.75rem] mb-[7.5rem]">
-        <div className="w-[100%] text-3xl text-blueLigh font-georgia-b ">
+        <div className="w-[100%] text-3xl text-[#8EB6DC] font-georgia-b ">
           A Vision Sparked, A Team United
         </div>
         <div className="text-sm  w-[100%]">

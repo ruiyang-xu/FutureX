@@ -79,7 +79,7 @@
     font-family: proximanovab, "Times New Roman", Times, serif;
   }
   .font-normal {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
   }
   #nav a.active {
     text-decoration: solid;

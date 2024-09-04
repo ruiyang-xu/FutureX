@@ -6,9 +6,9 @@ export function useIsMoile(width = 1080) {
   );
   var html_ = document.getElementsByTagName("html")[0];
   if (window.innerWidth < 1080) {
-    document.body.style.fontSize = "10px";
+    html_.style.fontSize = "10px";
   } else {
-    document.body.style.fontSize = "16px";
+    html_.style.fontSize = "16px";
   }
 
   const setRem = () => {
