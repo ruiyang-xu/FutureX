@@ -187,16 +187,16 @@ export const cultivating: NetWordListItem[] = [
   },
   {
     id: 3,
-    title: "Quarterly FutureX Dinners",
+    title: "Annual General Meetings",
     content:
-      "Held in major hubs like Beijing, Hong Kong, Singapore, and Silicon Valley, these gatherings foster collaboration among founders, industry experts, and investors.",
+      "Every 1-2 years, we convene to discuss trends and shape the future of technology and investment.",
     img: list03,
   },
   {
     id: 4,
-    title: "Global Tech Tours",
+    title: "Quarterly FutureX Dinners",
     content:
-      "We invite LPs and founders to join us on curated tours to regions like the Middle East, Silicon Valley, Southeast Asia, and China. These journeys offer firsthand exploration of diverse markets and refresh our collective frontline knowledge.",
+      "Held in major hubs like Beijing, Hong Kong, Singapore, and Silicon Valley, these gatherings foster collaboration among founders, industry experts, and investors.",
     img: list04,
   },
 ];
