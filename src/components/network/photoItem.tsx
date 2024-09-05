@@ -11,15 +11,18 @@ const PhotoItem = (props: PhotoItem) => {
   return (
     <div>
       <div
-        className={["w-[13.125rem]", "relative", "mt-6", "cursor-pointer"].join(" ")}
+        className={["w-[13.125rem]", "relative", "mt-6", "cursor-pointer"].join(
+          " "
+        )}
         onClick={() => {
           setIsShow(true);
         }}
       >
         <div className="w-[13.125rem]">
+          <div className=" absolute bottom-0 w-[13.125rem] h-[7rem] blcak_opt"></div>
           <img src={data.img} alt="" />
         </div>
-        <div className=" absolute bottom-[6px] left-[0.75rem] z-30">
+        <div className=" absolute bottom-[6px] left-[0.75rem] z-30 ">
           <div className="text-base font-georgia-b text-white">{data.name}</div>
           <div className="w-[7.5rem] h-[1.875rem] mt-[6px]">
             <img src={data.logo} alt="" className="" />

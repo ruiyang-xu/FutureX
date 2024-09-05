@@ -108,4 +108,7 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+  .blcak_opt {
+    background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,1));
+  }
 }
