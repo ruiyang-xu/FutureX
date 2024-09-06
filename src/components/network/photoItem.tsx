@@ -11,7 +11,7 @@ const PhotoItem = (props: PhotoItem) => {
   return (
     <div>
       <div
-        className={["w-[13.125rem]", "relative", "mt-6", "cursor-pointer"].join(
+        className={["w-[13.125rem]", "relative", "mt-6", "cursor-pointer","z-0"].join(
           " "
         )}
         onClick={() => {
@@ -19,7 +19,7 @@ const PhotoItem = (props: PhotoItem) => {
         }}
       >
         <div className="w-[13.125rem]">
-          <div className=" absolute bottom-0 w-[13.125rem] h-[7rem] blcak_opt"></div>
+          <div className=" absolute bottom-0 w-[13.125rem] h-[7rem] blcak_opt z-5"></div>
           <img src={data.img} alt="" />
         </div>
         <div className=" absolute bottom-[6px] left-[0.75rem] z-30 ">

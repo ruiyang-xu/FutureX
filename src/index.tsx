@@ -17,20 +17,21 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
-
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Header></Header>
-      <Routes>
-        <Route path="/" element={<Navigate to="/home"></Navigate>}></Route>
-        <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
-        <Route path="/network" element={<Network></Network>}></Route>
-        <Route path="/team" element={<Team></Team>}></Route>
-        <Route path="/voice" element={<Voice></Voice>}></Route>
-        <Route path="/detail/:id" element={<Detail></Detail>}></Route>
-      </Routes>
+      <div className="pt-[7.5rem]">
+        <Routes>
+          <Route path="/" element={<Navigate to="/home"></Navigate>}></Route>
+          <Route path="/home" element={<Home></Home>}></Route>
+          <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
+          <Route path="/network" element={<Network></Network>}></Route>
+          <Route path="/team" element={<Team></Team>}></Route>
+          <Route path="/voice" element={<Voice></Voice>}></Route>
+          <Route path="/detail/:id" element={<Detail></Detail>}></Route>
+        </Routes>
+      </div>
       <Footer></Footer>
     </BrowserRouter>
   </React.StrictMode>

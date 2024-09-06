@@ -34,7 +34,11 @@ const Box = (props: BoxProps) => {
           "-translate-y-[50%]",
           "w-[80%]",
           "z-40",
-          "no-scrollbar"
+          "sxl:w-[80rem]",
+          "max-h-[41.25rem]",
+          "overflow-y-scroll",
+          "relative",
+          "scrollcss"
         ].join(" ")}
       >
         <div className="">

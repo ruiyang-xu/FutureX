@@ -41,7 +41,6 @@ const ItemBox = (props: PhotoItem) => {
             "lg:flex",
             "sxl:w-[80rem]",
             "z-40",
-            "no-scrollbar",
             "w-[100%]",
             "relative",
           ].join(" ")}
@@ -71,7 +70,7 @@ const ItemBox = (props: PhotoItem) => {
             })}
           </div>
           <div
-            className=" absolute top-[3rem] right-[5rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
+            className=" absolute top-[2.8125rem] right-[5.625rem] w-[2.8125rem] h-[2.8125rem] cursor-pointer"
             onClick={() => {
               props.close();
             }}

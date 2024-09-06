@@ -40,7 +40,7 @@ export default function Item(props: Itemprops) {
         </div>
         <div className="w-[6.75rem]">
           <div>
-            <div className="text-2xl font-medium font-proximanova">
+            <div className="text-xl font-medium font-proximanova">
               {data.partner}
             </div>
             <div className="text-base font-proximanova-l">{data.year}</div>

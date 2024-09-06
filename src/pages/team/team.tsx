@@ -11,7 +11,7 @@ const Team = () => {
       <div className="py-[9.375rem] h2">Our Team</div>
       <div className="lg:flex lg:justify-between gap-[3.75rem] mb-[7.5rem]">
         <div className="w-[100%] text-3xl text-[#8EB6DC] font-georgia-b ">
-          A Vision Sparked, A Team United
+          A Vision Sparked, <br></br>A Team United
         </div>
         <div className="text-sm  w-[100%]">
           <div
@@ -68,12 +68,12 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap pb-[1.875rem]">
         {teamList.map((item, index) => {
           return (
             <div
               key={item.id}
-              className="w-[17.5628rem] cursor-pointer"
+              className="w-[17.5628rem] cursor-pointer mb-[5.625rem]"
               onClick={() => {
                 setSelectData(item);
                 setShowBox(true);
