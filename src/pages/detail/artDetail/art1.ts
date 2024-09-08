@@ -1,6 +1,6 @@
 export default `
 <div>
-  <p><strong>1. Insights in AI evolution</strong>11111</p>
+  <p><strong>1. Insights in AI evolution</strong></p>
 
   <p>
     Dr. <a href="https://www.linkedin.com/in/lijiali/">Jia Li</a>, co-founder of

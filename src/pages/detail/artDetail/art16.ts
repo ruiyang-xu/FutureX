@@ -46,19 +46,19 @@ export default `<div>
     
     <p>We first started by looking at solutions for energy control and decided to focus on SiC components. By the end of 2020 to early 2021, we talked to more than 5 car manufacturers and found that SiC technology would be developed and be applied in cars by 2022. Therefore, we decided to complete the research and investment decision under three months. As of today, our early insight has been confirmed and supported by the fact that there are more than eight domestic EV using SiC devices – And there would be more in the future.</p>
     
-    <p>Our investee <strong>PN Junction Semiconductor (PNJ), which was valued at RMB 500 million when we entered exclusively, has been valued at RMB 1.3 billion after this round of investment. PNJ has adopted the Fabless model, with its advanced technology, efficient model, huge potential market, being in line with carbon neutral trend, the company is set to grow exponentially this year and next year.</p>
+    <p>Our investee PN Junction Semiconductor (PNJ), which was valued at RMB 500 million when we entered exclusively, has been valued at RMB 1.3 billion after this round of investment. PNJ has adopted the Fabless model, with its advanced technology, efficient model, huge potential market, being in line with carbon neutral trend, the company is set to grow exponentially this year and next year.</p>
     
     <p>As of now, in achieving carbon neutrality, we have invested in</p>
     
-    <p>1) the first luxurious EV in China – <strong>NIO,</p>
+    <p>1) the first luxurious EV in China – NIO,</p>
     
-    <p>2) low cost, low speed last-mile delivery solution - <strong>Kaiyun Motors,</p>
+    <p>2) low cost, low speed last-mile delivery solution - Kaiyun Motors,</p>
     
-    <p>3) the high-end brand with brand new EV – <strong>Lotus,</p>
+    <p>3) the high-end brand with brand new EV – Lotus,</p>
     
-    <p>4) carbon fiber composite-enforced lightweight vehicle supplier behind NIO, XPENG AEROHT, Li Auto, GAC AION – <strong>Feize Composites Tech,</p>
+    <p>4) carbon fiber composite-enforced lightweight vehicle supplier behind NIO, XPENG AEROHT, Li Auto, GAC AION – Feize Composites Tech,</p>
     
-    <p>5) the most advanced solid-state battery developer – <strong>Welion New Energy Technology, solid-state batteries have many advantages: 1. High degree of safety, 2. Higher energy density (1.5 times more than that of ternary lithium battery), 3. Lower cost (At 20MW, requires less cobalt and nickel than that of ternary lithium battery). Semi-solid-state battery packs are expected to be used in commercial vehicles in early 2023.</p>
+    <p>5) the most advanced solid-state battery developer – Welion New Energy Technology, solid-state batteries have many advantages: 1. High degree of safety, 2. Higher energy density (1.5 times more than that of ternary lithium battery), 3. Lower cost (At 20MW, requires less cobalt and nickel than that of ternary lithium battery). Semi-solid-state battery packs are expected to be used in commercial vehicles in early 2023.</p>
     
-    <p>6) leading dark horse companies in ADAS chip <strong>Black Sesame Intelligence and ADAS algorithm <strong>Nullmax.&nbsp;</p>
+    <p>6) leading dark horse companies in ADAS chip Black Sesame Intelligence and ADAS algorithm Nullmax.&nbsp;</p>
 </div>`;

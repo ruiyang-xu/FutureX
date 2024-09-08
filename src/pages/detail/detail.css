@@ -7,9 +7,15 @@
   display: inline-block;
   text-decoration: underline;
 }
+.art_detail p > strong{
+  margin-top: 5.625rem;
+}
 
 .art_detail li {
   list-style-type: square;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.625rem;
 }
 
 .art_detail .img {
@@ -22,21 +28,24 @@
 }
 .art_detail .img .img_info {
   color: #666;
-  padding-top: 0.5rem;
+  padding-top: 1.875rem;
   display: block;
   text-align: center;
+  line-height: normal;
+  font-size: 1.25rem;
 }
 .art_detail {
   font-size: 1.125rem;
 }
 
 .art_detail a {
-  color: #1470af;
+  /* color: #1470af; */
 }
 
 .art_detail p {
   margin-top: 2rem;
   font-size: 1.5rem;
+  line-height: 2.625rem;
 }
 .art_detail .bold {
   font-weight: bold;

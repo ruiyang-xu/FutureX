@@ -48,7 +48,7 @@ export const teamList: TeamItem[] = [
     img: img4,
     content: [
       "Edward (Kai) Huang brings over 20 years of investment experience focused on technology and innovation to FutureX Capital. His deep understanding of technological trends has enabled him to identify and nurture high-potential companies, with notable successes including ByteDance, Smartsense, and Longcheer.",
-      "Kai's career spans prestigious firms, including a tenure as CEO at Goldhorse Capital Management (2014-2017) and Portfolio Manager at CITIC Securities International. Earlier in his career, he developed his expertise in portfolio management and investment analysis at Balyasny Asset Management, The D. E. Shaw Group, SAC Capital, and Credit Suisse, working across various strategies and asset classes.",
+      "Kai's career spans prestigious firms, including a tenure as CEO at Goldhorse Capital Management (2014-2017) and Portfolio Manager at CITIC Securities International Investment Management. Earlier in his career, he developed his expertise in portfolio management and investment analysis at Balyasny Asset Management, The D. E. Shaw Group, SAC Capital, and Credit Suisse, working across various strategies and asset classes.",
       "With a Ph.D. in Computational Biology from Carnegie Mellon University and a B.S. from Tsinghua University, Kai brings a unique scientific perspective to tech investing.",
     ],
   },

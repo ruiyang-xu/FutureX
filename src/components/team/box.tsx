@@ -15,7 +15,7 @@ const Box = (props: BoxProps) => {
         "h-[100vh]",
         "top-0",
         "left-0",
-        "z-10",
+        "z-20",
         "animate__animated",
         isShow ? "animate__zoomIn " : "animate__zoomOut",
       ].join(" ")}

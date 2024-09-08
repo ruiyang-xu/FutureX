@@ -1,10 +1,12 @@
 export default `<div style="margin-top:1em;">
 
     <p class="img"><img src="/storage/app/media/uploaded-files/WechatIMG2080.jpg" style="width: 600px;"
-            class="fr-fic fr-dib fr-fil" data-result="success"></p>
+            class="fr-fic fr-dib fr-fil" data-result="success">
+            <p class='img_info'>NVIDIA's founder and CEO, Jensen Huang, delivered a keynote</p></p>
 
-    <p>NVIDIA's founder and CEO, Jensen Huang, delivered a keynote, "<strong>Don’t Miss This Transformative Moment
-            in AI</strong>," introducing the cutting-edge AI GPU and Blackwell computing platform. This innovation
+    <p><strong>Don’t Miss This Transformative Moment
+            in AI</strong></p>
+            <p>introducing the cutting-edge AI GPU and Blackwell computing platform. This innovation
         promises unparalleled performance enhancements for AI enterprises and is heralded by Huang as "the engine of
         a new industrial revolution." The rollout includes a variety of solutions such as GPUs, AI superchips,
         servers, and cloud services. Furthermore, NVIDIA launched a new inference microservice (NIM) to foster the
@@ -15,7 +17,7 @@ export default `<div style="margin-top:1em;">
     <p class="img"><img src="/storage/app/media/uploaded-files/WechatIMG2082.jpg" style="width: 605px;"
             class="fr-fic fr-dib fr-fil" data-result="success"></p>
 
-    <p><strong>Our observations -&nbsp;</strong><strong>What next for the LLM:</strong></p>
+    <p><strong>Our observations -&nbsp;What next for the LLM:</strong></p>
 
     <p>1. <span class="bold">Reasoning:</span> GTC participants generally believe that reasoning capabilities are a key
         direction for the development of AI models. This means that the models need to advance beyond reader-level

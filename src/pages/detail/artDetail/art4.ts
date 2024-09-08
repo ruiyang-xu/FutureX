@@ -1,4 +1,4 @@
-export default `<div">
+export default `<div>
 
     <p><strong>FutureX Founding Partner Ms. Cynthia Zhang: Investing in the GenAI Era</strong></p>
 
@@ -16,8 +16,8 @@ export default `<div">
     <p>Despite a general decline in project valuations in Silicon Valley this year, the field of AI applications is
         sparking more investment interest. The caliber of entrepreneurs remains high, suggesting that timely and
         well-strategized investments could produce substantial returns. This echoes the successful investment strategies
-        observed during the early days of the Mobile Internet Era, where <strong>the right timing and focus were
-            key</strong>.</p>
+        observed during the early days of the Mobile Internet Era, where the right timing and focus were
+            key.</p>
 
     <p>Compared to Silicon Valley VCs, FutureX holds distinct advantages. Firstly, our insight into product innovation
         is unparalleled. Our track record demonstrates our precision in identifying and investing in companies that
