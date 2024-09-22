@@ -66,7 +66,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "npm scripts/build.js && mv build dist",
+    "build": "node scripts/build.js && mv build dist",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
