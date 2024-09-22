@@ -1,13 +1,56 @@
+import React, { useState, useEffect } from "react";
 import p1Img from "@/assets/img/home/p1.png";
 import p2Img from "@/assets/img/home/p2.png";
 import p3Img from "@/assets/img/home/p3.png";
 import image from "@/assets/img/home/image.png";
 import flyWheel from "@/assets/img/home/flywheel.png";
 import { useIsMoile } from "@/hooks";
+
+interface LegalNoticeModalProps {
+  onClose: () => void;
+}
+
+const LegalNoticeModal: React.FC<LegalNoticeModalProps> = ({ onClose }) => (
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={onClose}>
+    <div className="bg-white p-8 rounded-lg max-w-lg mx-auto relative" onClick={(e) => e.stopPropagation()}>
+      <button 
+        onClick={onClose} 
+        className="absolute top-2 right-2 bg-blue-500 text-blue p-2 rounded text-sm md:text-base lg:text-lg z-50"
+        style={{ zIndex: 1000 }}
+      >
+        &times;
+      </button>
+      {/* Render other modal content */}
+      <div className="mt-8">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">Legal Notice</h2>
+        <p className="text-sm md:text-base lg:text-lg">
+          FutureX Fund Management (Hong Kong) Limited is a subsidiary of FutureX Capital Limited, which has been licensed by the Securities and Futures Commission in Hong Kong to engage in Type 4 (Advising on Securities) and Type 9 (Asset Management) regulated activities.
+        </p>
+        <p className="text-sm md:text-base lg:text-lg">
+          FutureX Fund Management (Hong Kong) Limited is regulated by the Securities and Futures Commission of Hong Kong to provide investment services to Professional Investors only. The term "professional investor" is as defined in the Securities and Futures Ordinance and its subsidiary legislation.
+        </p>
+        <p className="text-sm md:text-base lg:text-lg">
+          By visiting this website, you agree to be bound by the content of this disclaimer which may be amended by us from time to time and displayed on this website. In case of discrepancies between the English and Chinese versions, the English version shall prevail. The contents of this website have not been reviewed by the Securities and Futures Commission or any regulatory authority in Hong Kong.
+        </p>
+        <p className="text-sm md:text-base lg:text-lg">
+          The information on this website is provided for Hong Kong residents and for reference only. By viewing this website, you acknowledge that you have read and accepted the terms and conditions of accessing this website. If you do not agree to be bound by the terms of use, you should exit this website. Investment involves risks. Past performance is not indicative of future performance. The information provided herein is subject to change without further notice.
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
 export default function Home() {
   const isMobile = useIsMoile();
+  const [showLegalNotice, setShowLegalNotice] = useState(true);
+
+  const handleCloseLegalNotice = () => {
+    setShowLegalNotice(false);
+  };
+
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
+      {showLegalNotice && <LegalNoticeModal onClose={handleCloseLegalNotice} />}
       <section className="main se_bt">
         <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-[5.125rem]  font-black">
           <span className="text-blueLigh">Founders We </span> Backed
@@ -24,7 +67,7 @@ export default function Home() {
         <div className="lg:grid lg:grid-cols-2  lg:gap-[5.625rem] items-center mt-[3.625rem]">
           <div className="text-2xl leading-[2.625rem]">
             FutureX Capital invests in visionary founders building
-            transformative AI technologies across all stages. With $1B+ AUM and
+            transformative AI technologies across all stages. With $3B+ accumulated investment and
             deep roots in the US and China tech ecosystems, we're positioned at
             the forefront of the next wave of innovation.
           </div>
@@ -52,15 +95,6 @@ export default function Home() {
         <div className="lg:flex  lg:items-center lg:gap-[5.625rem] main">
           {!isMobile && (
             <div className="relative w-[36.5625rem] h-[30rem]">
-              {/* <div className="relative w-[73%] h-[11.875rem]  overflow-hidden">
-                <img src={p1Img} className="object-cover h-[11.875rem]" />
-              </div>
-              <div className="relative w-[66%]  -top-[2.81255rem] left-[16.625rem] z-10 h-[15rem] overflow-hidden">
-                <img src={p2Img} className="object-cover h-[15rem]" />
-              </div>
-              <div className="relative w-[59%] -top-[5.9375rem] h-[11.875rem] overflow-hidden">
-                <img src={p3Img} className="object-cover  h-[11.875rem]" />
-              </div> */}
               <img src={image} className="" />
             </div>
           )}

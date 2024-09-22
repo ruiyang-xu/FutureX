@@ -139,7 +139,7 @@ export const fundData: PortItemData[] = [
     id: 8,
     logo: logo08,
     partner: "Series X",
-    year: "20XX",
+    year: "2023",
     type: 2,
     blurb: "AI-Powered Personal Life Assistant",
     dataDetail: {
@@ -168,7 +168,7 @@ export const fundData: PortItemData[] = [
     id: 10,
     logo: logo10,
     partner: "Series X",
-    year: "20xx",
+    year: "2022",
     type: 2,
     blurb:
       "Disruptive In-Memory Computing (IMC) Technology for Edge Applications",
