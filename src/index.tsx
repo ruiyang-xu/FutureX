@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
@@ -12,6 +12,52 @@ import Network from "@/pages/network/network";
 import Team from "@/pages/team/team";
 import Voice from "@/pages/voice/voice";
 import Detail from "@/pages/detail/detail";
+import UserAgreement from "@/components/useragreement/UserAgreement";
+
+
+const AppContent = () => (
+  <>
+    <Header />
+    <div className="pt-[7.5rem]">
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/network" element={<Network />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/voice" element={<Voice />} />
+        <Route path="/detail/:id" element={<Detail />} />
+      </Routes>
+    </div>
+    <Footer />
+  </>
+);
+
+const App = () => {
+  const [hasAgreed, setHasAgreed] = useState(false);
+
+  useEffect(() => {
+    const agreementStatus = localStorage.getItem('userAgreement');
+    if (agreementStatus === 'accepted') {
+      setHasAgreed(true);
+    }
+  }, []);
+
+  const handleAccept = () => {
+    localStorage.setItem('userAgreement', 'accepted');
+    setHasAgreed(true);
+  };
+
+  return (
+    <BrowserRouter>
+      {hasAgreed ? (
+        <AppContent />
+      ) : (
+        <UserAgreement onAccept={handleAccept} />
+      )}
+    </BrowserRouter>
+  );
+};
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -19,20 +65,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Header></Header>
-      <div className="pt-[7.5rem]">
-        <Routes>
-          <Route path="/" element={<Navigate to="/home"></Navigate>}></Route>
-          <Route path="/home" element={<Home></Home>}></Route>
-          <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
-          <Route path="/network" element={<Network></Network>}></Route>
-          <Route path="/team" element={<Team></Team>}></Route>
-          <Route path="/voice" element={<Voice></Voice>}></Route>
-          <Route path="/detail/:id" element={<Detail></Detail>}></Route>
-        </Routes>
-      </div>
-      <Footer></Footer>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
+

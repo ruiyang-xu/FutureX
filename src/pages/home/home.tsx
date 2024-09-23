@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import p1Img from "@/assets/img/home/p1.png";
 import p2Img from "@/assets/img/home/p2.png";
 import p3Img from "@/assets/img/home/p3.png";
@@ -6,58 +6,18 @@ import image from "@/assets/img/home/image.png";
 import flyWheel from "@/assets/img/home/flywheel.png";
 import { useIsMoile } from "@/hooks";
 
-interface LegalNoticeModalProps {
-  onClose: () => void;
-}
-
-const LegalNoticeModal: React.FC<LegalNoticeModalProps> = ({ onClose }) => (
-  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={onClose}>
-    <div className="bg-white p-8 rounded-lg max-w-lg mx-auto relative" onClick={(e) => e.stopPropagation()}>
-      <button 
-        onClick={onClose} 
-        className="absolute top-2 right-2 bg-blue-500 text-blue p-2 rounded text-sm md:text-base lg:text-lg z-50"
-        style={{ zIndex: 1000 }}
-      >
-        &times;
-      </button>
-      {/* Render other modal content */}
-      <div className="mt-8">
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">Legal Notice</h2>
-        <p className="text-sm md:text-base lg:text-lg">
-          FutureX Fund Management (Hong Kong) Limited is a subsidiary of FutureX Capital Limited, which has been licensed by the Securities and Futures Commission in Hong Kong to engage in Type 4 (Advising on Securities) and Type 9 (Asset Management) regulated activities.
-        </p>
-        <p className="text-sm md:text-base lg:text-lg">
-          FutureX Fund Management (Hong Kong) Limited is regulated by the Securities and Futures Commission of Hong Kong to provide investment services to Professional Investors only. The term "professional investor" is as defined in the Securities and Futures Ordinance and its subsidiary legislation.
-        </p>
-        <p className="text-sm md:text-base lg:text-lg">
-          By visiting this website, you agree to be bound by the content of this disclaimer which may be amended by us from time to time and displayed on this website. In case of discrepancies between the English and Chinese versions, the English version shall prevail. The contents of this website have not been reviewed by the Securities and Futures Commission or any regulatory authority in Hong Kong.
-        </p>
-        <p className="text-sm md:text-base lg:text-lg">
-          The information on this website is provided for Hong Kong residents and for reference only. By viewing this website, you acknowledge that you have read and accepted the terms and conditions of accessing this website. If you do not agree to be bound by the terms of use, you should exit this website. Investment involves risks. Past performance is not indicative of future performance. The information provided herein is subject to change without further notice.
-        </p>
-      </div>
-    </div>
-  </div>
-);
-
 export default function Home() {
   const isMobile = useIsMoile();
-  const [showLegalNotice, setShowLegalNotice] = useState(true);
-
-  const handleCloseLegalNotice = () => {
-    setShowLegalNotice(false);
-  };
 
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
-      {showLegalNotice && <LegalNoticeModal onClose={handleCloseLegalNotice} />}
       <section className="main se_bt">
-        <div className="text-5xl text-blue font-georgia-b w-[100%] lg:w-3/4 mt-[8rem] leading-[5.125rem]  font-black">
+        <div className="text-3xl md:text-4xl lg:text-5xl text-blue font-georgia-b w-full lg:w-3/4 mt-8 md:mt-16 lg:mt-32 leading-tight lg:leading-[5.125rem] font-black">
           <span className="text-blueLigh">Founders We </span> Backed
           <span className="text-blueLigh"> are </span> Backing
           <span className="text-blueLigh"> Us</span>
         </div>
-        <div className="w-[80%] text-blueLigh text-xl font-normal leading-[1.8rem] tracking-[0.1rem] mt-[5.625rem] letter">
+        <div className="w-full md:w-[80%] text-blueLigh text-base md:text-lg lg:text-xl font-normal leading-relaxed md:leading-[1.8rem] tracking-[0.1rem] mt-8 md:mt-16 lg:mt-[5.625rem] letter">
           By connecting 100+ top-tier tech founders of yesterday, today, and
           tomorrow, we're accelerating the future of technology globally.
         </div>

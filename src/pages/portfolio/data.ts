@@ -36,7 +36,7 @@ export const fundData: PortItemData[] = [
   {
     id: 1,
     logo: logo01,
-    partner: "Series X",
+    partner: "AI Software",
     year: 2017,
     type: 1,
     blurb:
@@ -51,7 +51,7 @@ export const fundData: PortItemData[] = [
   {
     id: 2,
     logo: logo02,
-    partner: "Series X",
+    partner: "AI Hardware",
     year: 2018,
     type: 1,
     blurb: "Made-for-Enthusiasts” Quality Tech, Accessible to Everyone",
@@ -66,7 +66,7 @@ export const fundData: PortItemData[] = [
   {
     id: 3,
     logo: logo03,
-    partner: "Series D",
+    partner: "AI Software",
     year: 2018,
     type: 1,
     blurb: "Secure and Intelligent Cloud Solutions",
@@ -80,7 +80,7 @@ export const fundData: PortItemData[] = [
   {
     id: 4,
     logo: logo04,
-    partner: "Series C",
+    partner: "AI Software",
     year: 2014,
     type: 1,
     blurb:
@@ -96,7 +96,7 @@ export const fundData: PortItemData[] = [
   {
     id: 5,
     logo: logo05,
-    partner: "Series D",
+    partner: "AI Software",
     year: 2020,
     type: 2,
     blurb: "Most Advanced Distributed SQL Database for Modern Applications",
@@ -110,7 +110,7 @@ export const fundData: PortItemData[] = [
   {
     id: 6,
     logo: logo06,
-    partner: "Series E",
+    partner: "AI Software",
     year: 2021,
     type: 2,
     blurb: "AI-Driven IT Operations Management and Monitoring",
@@ -124,7 +124,7 @@ export const fundData: PortItemData[] = [
   {
     id: 7,
     logo: logo07,
-    partner: "Series A",
+    partner: "AI Software",
     year: 2023,
     type: 2,
     blurb: "Empowering Creativity Worldwide with Simple and Powerful AI Tools",
@@ -138,7 +138,7 @@ export const fundData: PortItemData[] = [
   {
     id: 8,
     logo: logo08,
-    partner: "Series X",
+    partner: "AI Software",
     year: "2023",
     type: 2,
     blurb: "AI-Powered Personal Life Assistant",
@@ -152,7 +152,7 @@ export const fundData: PortItemData[] = [
   {
     id: 9,
     logo: logo09,
-    partner: "Series A",
+    partner: "AI Software",
     year: 2024,
     type: 2,
     blurb:
@@ -167,14 +167,14 @@ export const fundData: PortItemData[] = [
   {
     id: 10,
     logo: logo10,
-    partner: "Series X",
+    partner: "AI Hardware",
     year: "2022",
     type: 2,
     blurb:
       "Disruptive In-Memory Computing (IMC) Technology for Edge Applications",
     dataDetail: {
       founder: "Dr. Glenn Ge, Dr. Miao Hu",
-      milestone: "XXX",
+      milestone: "Founded 2018",
       website: "tetramem.com",
       url: "https://www.tetramem.com/",
     },
@@ -182,7 +182,7 @@ export const fundData: PortItemData[] = [
   {
     id: 11,
     logo: logo11,
-    partner: "Series B1",
+    partner: "AI Hardware",
     year: 2019,
     type: 2,
     blurb: "AI Chipmaker for Autonomous Driving Systems",
@@ -196,7 +196,7 @@ export const fundData: PortItemData[] = [
   {
     id: 12,
     logo: logo12,
-    partner: "Series A",
+    partner: "AI Hardware",
     year: 2021,
     type: 2,
     blurb: "AI-First, Comprehensive Autonomous Driving Solutions",
@@ -210,7 +210,7 @@ export const fundData: PortItemData[] = [
   {
     id: 13,
     logo: logo13,
-    partner: "Series A",
+    partner: "AI Hardware",
     year: 2020,
     type: 2,
     blurb: "Battery-As-A-Service for the Growing EV Network",
@@ -225,7 +225,7 @@ export const fundData: PortItemData[] = [
   {
     id: 14,
     logo: logo14,
-    partner: "Series X",
+    partner: "AI Hardware",
     year: 2022,
     type: 2,
     blurb: "Iconic Sports Car Spirit, Electrified for the Future",
@@ -239,7 +239,7 @@ export const fundData: PortItemData[] = [
   {
     id: 15,
     logo: logo15,
-    partner: "Series A",
+    partner: "AI BioTech",
     year: 2021,
     type: 2,
     blurb: "AI-Powered Biotech Innovator for Efficient Drug Development",
@@ -253,7 +253,7 @@ export const fundData: PortItemData[] = [
   {
     id: 16,
     logo: logo16,
-    partner: "Series B+",
+    partner: "AI Software",
     year: 2021,
     type: 2,
     blurb: "Leading Online Mental Health and Counseling Platform in China",
@@ -268,7 +268,7 @@ export const fundData: PortItemData[] = [
   {
     id: 17,
     logo: logo17,
-    partner: "Series D",
+    partner: "AI Hardware",
     year: 2017,
     type: 3,
     blurb: "Revolutionizing Mobility with Intelligent Electric Vehicles",
@@ -282,7 +282,7 @@ export const fundData: PortItemData[] = [
   {
     id: 18,
     logo: logo18,
-    partner: "Series B",
+    partner: "AI Software",
     year: 2024,
     type: 3,
     blurb:
