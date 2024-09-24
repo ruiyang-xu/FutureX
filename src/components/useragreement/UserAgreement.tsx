@@ -24,7 +24,7 @@ const UserAgreement: React.FC<UserAgreementProps> = ({ onAccept }) => {
           </p>
           <button 
             onClick={onAccept} 
-            className="mt-4 bg-blue-500 text-white p-2 rounded text-sm md:text-base lg:text-lg"
+            className="mt-4 bg-blue-500 p-2 rounded text-sm md:text-base lg:text-lg"
           >
             I Agree and Accept
           </button>

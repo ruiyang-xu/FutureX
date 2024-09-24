@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
@@ -13,7 +13,6 @@ import Team from "@/pages/team/team";
 import Voice from "@/pages/voice/voice";
 import Detail from "@/pages/detail/detail";
 import UserAgreement from "@/components/useragreement/UserAgreement";
-
 
 const AppContent = () => (
   <>
@@ -37,14 +36,38 @@ const App = () => {
   const [hasAgreed, setHasAgreed] = useState(false);
 
   useEffect(() => {
-    const agreementStatus = localStorage.getItem('userAgreement');
-    if (agreementStatus === 'accepted') {
-      setHasAgreed(true);
-    }
+    const checkAgreementStatus = () => {
+      const agreementStatus = localStorage.getItem('userAgreement');
+      const agreementTimestamp = localStorage.getItem('userAgreementTimestamp');
+
+      if (agreementStatus === 'accepted' && agreementTimestamp) {
+        const currentTime = new Date().getTime();
+        const agreementTime = parseInt(agreementTimestamp, 10);
+        const timeDifference = currentTime - agreementTime;
+        const minutesPassed = timeDifference / (1000 * 60);
+
+        if (minutesPassed < 60) {
+          setHasAgreed(true);
+        } else {
+          localStorage.removeItem('userAgreement');
+          localStorage.removeItem('userAgreementTimestamp');
+          setHasAgreed(false);
+        }
+      } else {
+        setHasAgreed(false);
+      }
+    };
+
+    checkAgreementStatus();
+
+    const interval = setInterval(checkAgreementStatus, 60000); // Check every minute
+
+    return () => clearInterval(interval);
   }, []);
 
   const handleAccept = () => {
     localStorage.setItem('userAgreement', 'accepted');
+    localStorage.setItem('userAgreementTimestamp', new Date().getTime().toString());
     setHasAgreed(true);
   };
 
@@ -68,4 +91,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-

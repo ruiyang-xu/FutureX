@@ -3,9 +3,9 @@ const Footer = () => {
   return (
     <div className=" bg-blue">
       <div className="main py-12">
-        <div className="w-[10.5rem] h-[1.875rem]">
+        {/* <div className="w-[10.5rem] h-[1.875rem]">
           <img src={icon} alt="" />
-        </div>
+        </div> */}
         <p className="text-sm text-white mt-10 font-georgia">
           Tel: (852) 31664550
         </p>
@@ -14,7 +14,7 @@ const Footer = () => {
           Hong Kong
         </p>
         <p className="text-sm text-white mt-12">
-          © 2024 FutureX. All rights reserved.
+          © 2018 - 2024 FutureX. All rights reserved.
         </p>
       </div>
     </div>

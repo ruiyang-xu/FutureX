@@ -69,7 +69,11 @@ export const popleData: NetWordPhotoData[][] = [
       founder: "COFounder & cSO",
       img: p5,
       title: "Our Story",
-      content: ["Story Detail "],
+      content: [
+        "As a co-founder of Xiaomi, Chuan Wang's visionary leadership and entrepreneurial experience have been instrumental in the company's success. He spearheaded the development of key products like the Xiaomi Box and Xiaomi TV, redefining smart home entertainment and enriching Xiaomi's ecosystem.",
+        "Today, thanks to the efforts of Chuan and other co-founders, Xiaomi has transformed from a smartphone company into a global leader in consumer electronics and smart devices. Chuan continues to drive innovation, contributing significantly to product development and company strategy. His deep understanding of user experience and keen insight into technology trends keep Xiaomi at the forefront of the tech industry.", 
+        "Our collaboration with Chuan extends beyond Xiaomi, encompassing investment decisions, company valuations, and post-investment management, exemplifying the synergy and value creation within our network."
+],
     },
   ],
   [
@@ -124,7 +128,7 @@ export const popleData: NetWordPhotoData[][] = [
       founder: "Managing Partner",
       img: p8,
       title: "Our Story",
-      content: ["Story Details"],
+      content: ["Art Wong is a seasoned executive with extensive experience in cybersecurity, technology, and venture capital. Currently serving as the Managing Partner at Atherton Linden Capital Partners in the San Francisco Bay Area, Art has a diverse background that spans leadership roles in both established corporations and startups. His career highlights include serving as the Chief Executive Officer at Trustwave and holding the position of Chief Executive Officer for Global Cyber Security at Singtel. Art's expertise in security is further evidenced by his role as Senior Vice President and GM of Security at DXC Technology. With a strong foundation in technology and a growing focus on sustainable investments, as shown by his time as Operating Partner at Sustainable Opportunities Acquisition Corp., Art brings a wealth of knowledge to the venture capital space. He holds a degree from the University of Calgary and has furthered his education with the Stanford Executive Program at Stanford University Graduate School of Business."],
     },
   ],
   [
@@ -136,7 +140,7 @@ export const popleData: NetWordPhotoData[][] = [
       founder: "Founder & cEO",
       img: p6,
       title: "Our Story",
-      content: ["Story Details"],
+      content: ["Yi Cui is a distinguished Professor at Stanford University, where he has been leading a cutting-edge research lab since September 2005. With over 19 years of experience in academia, Professor Cui has established himself as a pioneering figure in the fields of materials science and nanotechnology. His research spans a wide range of interdisciplinary areas, focusing on innovative applications of nanotechnology. Professor Cui's work encompasses energy-related research, including advanced battery technologies and solar cells, as well as groundbreaking studies in electrochemistry and electrocatalysis. He is particularly renowned for his contributions to the development of transparent electrodes and 2D layered materials. Professor Cui's lab also delves into environmental technologies, working on solutions for water and air filtration, and solid waste clean-up. Additionally, his research extends to emerging fields such as wearable technology and nanobiotechnology, showcasing the breadth and impact of his scientific pursuits. With a strong educational background, including a degree from the University of Science and Technology of China and further studies at Harvard University, Professor Cui brings a wealth of knowledge and international perspective to his research. His work at Stanford continues to push the boundaries of materials science and nanotechnology, with potential applications that could significantly impact various aspects of technology and environmental sustainability."],
     },
     {
       id: 7,
@@ -146,7 +150,7 @@ export const popleData: NetWordPhotoData[][] = [
       founder: "CHairman",
       img: p7,
       title: "Our Story",
-      content: ["Story Details"],
+      content: ["Fengmin Gong is a renowned technology leader and serial entrepreneur with over two decades of experience in cybersecurity and artificial intelligence. Currently, he serves as CEO and Co-Founder of Metafoodx, an AI-powered food waste prevention solution enhancing foodservice profitability and sustainability. Gong's illustrious career includes co-founding Palo Alto Networks in 2006, where he pioneered next-generation firewall technologies. He has held key positions such as Chief Security Content Officer at FireEye and Chief Scientist at Huawei Symantec JV, driving innovation in anti-malware intelligence and security product development. His entrepreneurial spirit led him to co-found multiple successful ventures, including Cyphort Inc. and AssureSec Inc., both focused on advanced security solutions. Gong's expertise extends to large-scale operations, evident in his role as VP of InfoSec Strategy at Didi Chuxing and Head of DiDi Labs. Beyond his corporate achievements, Gong is actively involved in community leadership as the Chairman of HYSTA, working to empower Asian American professionals in technology and business. Fengmin Gong's career is marked by strategic vision, technical prowess, and a commitment to creating secure and productive digital ecosystems, continuously shaping the landscape of cybersecurity and AI-driven solutions."],
     },
   ],
 ];

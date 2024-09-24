@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div>
               <p className="home_big lg:mt-24">Top5%</p>
-              <p className="home_big_small">DPI Globally*</p>
+              <p className="home_big_small">DPI Globally, compared with VC fund of the samve vintage in 2018</p>
             </div>
             <div className="lg:row-span-2 lg:flex lg:items-center">
               <div>
@@ -69,9 +69,11 @@ export default function Home() {
               supported – a testament to the trust we've built and the value we
               deliver.
             </p>
-            <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border- border-blue rounded-[1.875rem] text-xl bg-white se_mb_90 font-proximanova-m">
-              Learn More
-            </button>
+            <a href="/network" className="inline-block">
+              <button className="w-[11.25rem] h-[3.75rem] text-blue border-[2px] border-blue rounded-[1.875rem] text-xl bg-white se_mb_90 font-proximanova-m">
+                Learn More
+              </button>
+            </a>
           </div>
         </div>
       </section>
