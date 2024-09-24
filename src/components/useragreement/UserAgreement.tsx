@@ -18,7 +18,7 @@ const UserAgreement: React.FC<UserAgreementProps> = ({ onAccept }) => {
           </p>
           <p className="text-sm md:text-base lg:text-lg mb-4">
             By visiting this website, you agree to be bound by the content of this 
-            <a href="/disclaimer" className="text-blue-500 underline">disclaimer</a> 
+            <a href="/disclaimer" className="text-blue-500 underline"> disclaimer </a> 
             which may be amended by us from time to time and displayed on this website. In case of discrepancies between the English and Chinese versions, the English version shall prevail. The contents of this website have not been reviewed by the Securities and Futures Commission or any regulatory authority in Hong Kong.
           </p>
           <p className="text-sm md:text-base lg:text-lg mb-4">
@@ -28,10 +28,10 @@ const UserAgreement: React.FC<UserAgreementProps> = ({ onAccept }) => {
             onClick={onAccept} 
             className="mt-4 bg-blue-500 p-2 rounded text-sm md:text-base lg:text-lg flex items-center justify-center"
           >
-            <span className="text-white mr-2">I Agree and Accept</span>
+            <span className="text-blue mr-2">I Agree and Accept</span>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
-              className="h-5 w-5 text-white" 
+              className="h-5 w-5 text-blue" 
               viewBox="0 0 20 20" 
               fill="currentColor"
             >
