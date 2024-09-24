@@ -12,7 +12,7 @@ const navList = [
   },
   {
     path: "./portfolio",
-    name: "Portfolio",
+    name: "Companies",
   },
   {
     path: "./network",

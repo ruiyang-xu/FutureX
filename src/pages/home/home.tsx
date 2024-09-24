@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div>
               <p className="home_big lg:mt-24">Top5%</p>
-              <p className="home_big_small">DPI Globally, compared with VC fund of the samve vintage in 2018</p>
+              <p className="home_big_small">DPI Globally, compared with VC fund of the same vintage in 2018</p>
             </div>
             <div className="lg:row-span-2 lg:flex lg:items-center">
               <div>

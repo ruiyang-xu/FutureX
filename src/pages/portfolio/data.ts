@@ -37,7 +37,7 @@ export const fundData: PortItemData[] = [
     id: 1,
     logo: logo01,
     partner: "AI Software",
-    year: 2017,
+    year: 2018,
     type: 1,
     blurb:
       "The Attention Factory: Leading a Content Revolution with Powerful Algorithms",
@@ -81,7 +81,7 @@ export const fundData: PortItemData[] = [
     id: 4,
     logo: logo04,
     partner: "AI Software",
-    year: 2014,
+    year: 2018,
     type: 1,
     blurb:
       "One of the Largest Lifestyle Platforms: Everyday Services via Super-App",
@@ -265,20 +265,20 @@ export const fundData: PortItemData[] = [
       url: "https://www.ydl.com/",
     },
   },
-  {
-    id: 17,
-    logo: logo17,
-    partner: "AI Hardware",
-    year: 2017,
-    type: 3,
-    blurb: "Revolutionizing Mobility with Intelligent Electric Vehicles",
-    dataDetail: {
-      founder: "William Li",
-      milestone: "Founded 2014 | IPO 2018 (NYSE: NIO)",
-      website: "nio.com",
-      url: "https://www.nio.cn/",
-    },
-  },
+  // {
+  //   id: 17,
+  //   logo: logo17,
+  //   partner: "AI Hardware",
+  //   year: 2017,
+  //   type: 3,
+  //   blurb: "Revolutionizing Mobility with Intelligent Electric Vehicles",
+  //   dataDetail: {
+  //     founder: "William Li",
+  //     milestone: "Founded 2014 | IPO 2018 (NYSE: NIO)",
+  //     website: "nio.com",
+  //     url: "https://www.nio.cn/",
+  //   },
+  // },
   {
     id: 18,
     logo: logo18,

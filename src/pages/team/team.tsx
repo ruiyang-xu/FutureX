@@ -91,7 +91,7 @@ const Team = () => {
       <div className="flex flex-wrap pb-[1.875rem]">
         {/* First row with added spacing */}
         <div className="w-full flex justify-between mb-[5.625rem]">
-          {teamList.slice(0, 4).map((member, index) => (
+          {teamList.slice(0, 3).map((member, index) => (
             <div key={member.id} className={index < 3 ? "mr-8" : ""}>
               {renderTeamMember(member)}
             </div>
@@ -99,13 +99,12 @@ const Team = () => {
         </div>
         
         {/* Second row - Alex Cheung and Simon Xu aligned to the left */}
-        <div className="w-full flex">
-          <div className="flex flex-col items-start mr-8">
-            {renderTeamMember(teamList.find(member => member.name === "Alex Cheung")!)}
-          </div>
-          <div className="flex flex-col items-start">
-            {renderTeamMember(teamList.find(member => member.name === "Simon Xu")!)}
-          </div>
+        <div className="w-full flex justify-between mb-[5.625rem]">
+          {teamList.slice(3, 6).map((member, index) => (
+            <div key={member.id} className={index < 3 ? "mr-8" : ""}>
+              {renderTeamMember(member)}
+            </div>
+          ))}
         </div>
       </div>
       

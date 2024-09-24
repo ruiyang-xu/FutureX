@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <section className="main overflow-x-hidden se_bt">
-      <div className="py-[9.375rem] h2">Selected Portfolio Companies</div>
+      <div className="py-[9.375rem] h2">Selected Companies</div>
       <div className="flex bg-blueBg mt-[3.75rem] border-y-[1px] border-blueHover font-proximanova-b px-[1.875rem] justify-between">
         <div className="text-base text-blue w-[15rem] py-4 text-center uppercase small_cap">
           Company
