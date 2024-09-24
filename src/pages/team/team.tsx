@@ -5,7 +5,27 @@ const Team = () => {
   const [showLess, setShowLess] = useState<boolean>(false);
   const [selectData, setSelectData] = useState<TeamItem>();
   const [showBox, setShowBox] = useState<boolean>(false);
-
+  const renderTeamMember = (item: TeamItem) => (
+    <div
+      key={item.id}
+      className="w-[17.5628rem] cursor-pointer mb-[5.625rem]"
+      onClick={() => {
+        setSelectData(item);
+        setShowBox(true);
+      }}
+    >
+      <div className="w-100%">
+        <img src={item.img} alt="" />
+      </div>
+      <div className="text-2xl text-center font-georgia mt-[1.827rem]">
+        {item.name}
+      </div>
+      <div className="text-sm uppercase text-center small_cap">
+        {item.pos}
+      </div>
+    </div>
+  );
+  
   return (
     <section className="main">
       <div className="py-[9.375rem] h2">Our Team</div>
@@ -68,30 +88,27 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between flex-wrap pb-[1.875rem]">
-        {teamList.map((item, index) => {
-          return (
-            <div
-              key={item.id}
-              className="w-[17.5628rem] cursor-pointer mb-[5.625rem]"
-              onClick={() => {
-                setSelectData(item);
-                setShowBox(true);
-              }}
-            >
-              <div className="w-100% ">
-                <img src={item.img} alt="" />
-              </div>
-              <div className="text-2xl text-center  font-georgia mt-[1.827rem]">
-                {item.name}
-              </div>
-              <div className="text-sm uppercase text-center small_cap">
-                {item.pos}
-              </div>
+      <div className="flex flex-wrap pb-[1.875rem]">
+        {/* First row with added spacing */}
+        <div className="w-full flex justify-between mb-[5.625rem]">
+          {teamList.slice(0, 4).map((member, index) => (
+            <div key={member.id} className={index < 3 ? "mr-8" : ""}>
+              {renderTeamMember(member)}
             </div>
-          );
-        })}
+          ))}
+        </div>
+        
+        {/* Second row - Alex Cheung and Simon Xu aligned to the left */}
+        <div className="w-full flex">
+          <div className="flex flex-col items-start mr-8">
+            {renderTeamMember(teamList.find(member => member.name === "Alex Cheung")!)}
+          </div>
+          <div className="flex flex-col items-start">
+            {renderTeamMember(teamList.find(member => member.name === "Simon Xu")!)}
+          </div>
+        </div>
       </div>
+      
       {showBox && (
         <Box
           data={selectData}
