@@ -10,8 +10,13 @@ const Footer = () => {
           Tel: (852) 31664550
         </p>
         <p className="text-sm text-white mt-6 font-georgia">
-          Main Office: Suite 3915-17, Jardine House, 1 Connaught Place, Central,
+          Main Office: Suite 3915, Jardine House, 1 Connaught Place, Central,
           Hong Kong
+        </p>
+        <p className="text-sm text-white mt-6 font-georgia">
+        <a href="https://www.linkedin.com/company/futurex-capital" target="_blank" rel="noopener noreferrer">
+        LinkedIn: FutureX Capital
+         </a>
         </p>
         <p className="text-sm text-white mt-12">
           © 2018 - 2024 FutureX. All rights reserved.

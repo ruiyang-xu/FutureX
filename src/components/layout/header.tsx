@@ -26,6 +26,10 @@ const navList = [
     path: "./voice",
     name: "Voice",
   },
+  {
+    path: "./disclaimer",
+    name: "Disclaimer",
+  },
 ];
 
 const Layout: React.VFC = () => {

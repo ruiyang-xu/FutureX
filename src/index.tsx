@@ -13,6 +13,7 @@ import Team from "@/pages/team/team";
 import Voice from "@/pages/voice/voice";
 import Detail from "@/pages/detail/detail";
 import UserAgreement from "@/components/useragreement/UserAgreement";
+import Disclaimer from "@/pages/disclaimer/disclaimer";
 
 const AppContent = () => (
   <>
@@ -26,6 +27,7 @@ const AppContent = () => (
         <Route path="/team" element={<Team />} />
         <Route path="/voice" element={<Voice />} />
         <Route path="/detail/:id" element={<Detail />} />
+        <Route path="/disclaimer" element={<Disclaimer />}/>
       </Routes>
     </div>
     <Footer />
