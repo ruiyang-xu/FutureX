@@ -65,10 +65,11 @@ export const teamList: TeamItem[] = [
   {
     id: 6,
     name: "Simon Xu",
-    pos: "Senior Associate",
+    pos: "CEO @ FutureX Ventures",
     img: img6,
     content: [
-      "Simon Xu brings sharp analytical skills and diverse financial experience to FutureX Capital. Simon has participated in a number of marquee deals execution including NIO and Bytedance.",
+      "As a collaborative leader at FutureX Capital, Simon currently serves as CEO at FutureX Ventures focusing on disruptive technology innovation. With over 5 years of experience, he has demonstrated strong team leadership by building and guiding cross-functional investment teams while leveraging AI-driven analytics to identify, evaluate, and scale high-potential opportunities.",
+      "Throughout his career progression from Analyst to Associate to CEO, he has fostered a data-driven yet collaborative approach to deal execution and investment management. His notable deal experience spans across multiple successful investments including Black Sesame (2533.HK), Miraftery, Nullmax (acquired by 002195.SZ), Tetramem, Bytedance, Xiaomi (1810.HK), Meituan (3690.HK), and Kingsoft Cloud (KC.NASDAQ). Most recently, he has expanded the portfolio with investments in fast-growing startups like FastMoss. Simon has comprehensive experience in full-cycle private equity operations, including deal sourcing, fundraising, portfolio management, and exit strategies.",
       "Simon holds Double Degree in Finance and System Engineering from The Chinese University of Hong Kong, with a summer exchange at the London School of Economics.",
     ],
   },
