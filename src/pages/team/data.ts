@@ -52,28 +52,9 @@ export const teamList: TeamItem[] = [
   //     "With a Ph.D. in Computational Biology from Carnegie Mellon University and a B.S. from Tsinghua University, Kai brings a unique scientific perspective to tech investing.",
   //   ],
   // },
+ 
   {
     id: 5,
-    name: "Clara Jiang",
-    pos: "Senior Vice President",
-    img: img5,
-    content: [
-      "Clara Jiang leads the cloud computing and AI sector investments at FutureX Capital, specializing in software infrastructure, next-generation AI applications, and smart devices. She has spearheaded investments in companies such as Pixocial, LiveX, PingCap, and Cloudwise.",
-      "Clara holds a BBA from Hong Kong University of Science and Technology and an MBA from UC Berkeley's Haas School of Business.",
-    ],
-  },
-  {
-    id: 6,
-    name: "Simon Xu",
-    pos: "Senior Associate",
-    img: img6,
-    content: [
-      "Simon focusing on disruptive technology innovation. He has fostered a data-driven yet collaborative approach to deal execution and investment management. His notable deal experience spans across multiple successful investments including Black Sesame (2533.HK), Miraftery, Nullmax (acquired by 002195.SZ), Tetramem, Bytedance, Xiaomi (1810.HK), Meituan (3690.HK), and Kingsoft Cloud (KC.NASDAQ). Most recently, he has expanded the portfolio with investments in fast-growing startups like FastMoss. Simon has comprehensive experience in full-cycle private equity operations, including deal sourcing, fundraising, portfolio management, and exit strategies.",
-      "Simon holds Double Degree in Finance and System Engineering from The Chinese University of Hong Kong, with a summer exchange at the London School of Economics.",
-    ],
-  },
-  {
-    id: 7,
     name: "Alex Cheung",
     pos: "Head of Operations",
     img: img7,
