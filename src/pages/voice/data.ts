@@ -141,15 +141,7 @@ The global investors warmly welcomed Lotus Technology's debut on the NASDAQ mark
     date: "November 18, 2022",
     img: "/storage/app/media/11.png",
   },
-  {
-    id: 14,
-    type: "spotlight",
-    title: `WeLion New Energy closes RMB 1.5Bn Series D funding round | FutureX Portfolio`,
-    desc: `WeLion New Energy Technology Co., Ltd., ("WeLion New Energy"), a portfolio company of FutureX and an industry leader in solid-state lithium batteries, closed a RMB 1.5 billion Series D round. Investors were led by China Chengtong Mixed Reform Fund, followed by CITIC Construction Investment, SDIC ChuangYi Industry Fund, China Merchants Capital, Dyee Capital, Hidden Hill Capital, Hermitage Capital, Huzhou Economic Development, Yunhe Partners, and other investors. The round was followed by Zibo Jingneng, which also participated in earlier fundraising rounds. Lighthouse Capital acted as the exclusive financial advisor for this round of financing. After the financing is completed, the company will further speed up its production line expansion, as well as its investments towards R&D.
-`,
-    date: "November 7th, 2022",
-    img: "/storage/app/media/welion.png",
-  },
+
   {
     id: 15,
     type: "event",

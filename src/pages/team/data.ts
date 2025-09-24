@@ -41,39 +41,20 @@ export const teamList: TeamItem[] = [
       "William holds a Master's in Finance and Economics from the London School of Economics and a Bachelor's in Economics from the University of Cambridge.",
     ],
   },
-  {
-    id: 4,
-    name: "Edward Huang",
-    pos: "Managing Partner",
-    img: img4,
-    content: [
-      "Edward (Kai) Huang brings over 20 years of investment experience focused on technology and innovation to FutureX Capital. His deep understanding of technological trends has enabled him to identify and nurture high-potential companies, with notable successes including ByteDance, Smartsense, and Longcheer.",
-      "Kai's career spans prestigious firms, including a tenure as CEO at Goldhorse Capital Management (2014-2017) and Portfolio Manager at CITIC Securities International Investment Management. Earlier in his career, he developed his expertise in portfolio management and investment analysis at Balyasny Asset Management, The D. E. Shaw Group, SAC Capital, and Credit Suisse, working across various strategies and asset classes.",
-      "With a Ph.D. in Computational Biology from Carnegie Mellon University and a B.S. from Tsinghua University, Kai brings a unique scientific perspective to tech investing.",
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "Edward Huang",
+  //   pos: "Managing Partner",
+  //   img: img4,
+  //   content: [
+  //     "Edward (Kai) Huang brings over 20 years of investment experience focused on technology and innovation to FutureX Capital. His deep understanding of technological trends has enabled him to identify and nurture high-potential companies, with notable successes including ByteDance, Smartsense, and Longcheer.",
+  //     "Kai's career spans prestigious firms, including a tenure as CEO at Goldhorse Capital Management (2014-2017) and Portfolio Manager at CITIC Securities International Investment Management. Earlier in his career, he developed his expertise in portfolio management and investment analysis at Balyasny Asset Management, The D. E. Shaw Group, SAC Capital, and Credit Suisse, working across various strategies and asset classes.",
+  //     "With a Ph.D. in Computational Biology from Carnegie Mellon University and a B.S. from Tsinghua University, Kai brings a unique scientific perspective to tech investing.",
+  //   ],
+  // },
+ 
   {
     id: 5,
-    name: "Clara Jiang",
-    pos: "Senior Vice President",
-    img: img5,
-    content: [
-      "Clara Jiang leads the cloud computing and AI sector investments at FutureX Capital, specializing in software infrastructure, next-generation AI applications, and smart devices. She has spearheaded investments in companies such as Pixocial, LiveX, PingCap, and Cloudwise.",
-      "Clara holds a BBA from Hong Kong University of Science and Technology and an MBA from UC Berkeley's Haas School of Business.",
-    ],
-  },
-  {
-    id: 6,
-    name: "Simon Xu",
-    pos: "Senior Associate",
-    img: img6,
-    content: [
-      "Simon Xu brings sharp analytical skills and diverse financial experience to FutureX Capital. Simon has participated in a number of marquee deals execution including NIO and Bytedance.",
-      "Simon holds Double Degree in Finance and System Engineering from The Chinese University of Hong Kong, with a summer exchange at the London School of Economics.",
-    ],
-  },
-  {
-    id: 7,
     name: "Alex Cheung",
     pos: "Head of Operations",
     img: img7,
