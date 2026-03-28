@@ -23,6 +23,22 @@ export const navList: VoiceNav[] = [
 
 export const newList: NewList[] = [
   {
+    id: 18,
+    type: "spotlight",
+    title: "FutureX Portfolio Company Manus Acquired by Meta for $2 Billion",
+    desc: `FutureX Capital is proud to celebrate a landmark exit as Manus, the autonomous AI agent developed by Beijing Butterfly Effect Technology, was acquired by Meta Platforms in December 2025 for approximately $2 billion. Manus launched publicly in March 2025 and quickly became one of the most talked-about AI platforms in the world, achieving over $100 million in annual recurring revenue in just eight months. This acquisition marks one of the largest U.S. tech acquisitions of a China-founded AI company and validates FutureX's early conviction in the AI agent space.`,
+    date: "December 30th, 2025",
+    img: "",
+  },
+  {
+    id: 19,
+    type: "event",
+    title: "Cynthia Zhang at Asia New Vision Forum 2025: Betting on AI Agent Founders",
+    desc: `On September 11, 2025, FutureX Capital Founding Partner Cynthia Zhang participated in a panel discussion at the Asia New Vision Forum 2025, organized by Caixin Media. Zhang shared FutureX's investment thesis in AI agents, highlighting that the firm has backed 12 AI agent teams with an ambitious goal of investing in 100 such teams. She emphasized the importance of betting on exceptional founders: "It's not about which sector you bet on — you really need to bet on founders." From 2023 to 2025, FutureX invested in 60 AI companies across China and the U.S., with 70% already profitable.`,
+    date: "September 11th, 2025",
+    img: "",
+  },
+  {
     id: 1,
     type: "event",
     title: "FutureX's Silicon Valley AI Tour: A Recap",

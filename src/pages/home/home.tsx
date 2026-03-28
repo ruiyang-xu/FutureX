@@ -27,9 +27,9 @@ export default function Home() {
         <div className="lg:grid lg:grid-cols-2  lg:gap-[5.625rem] items-center mt-[3.625rem]">
           <div className="text-2xl leading-[2.625rem]">
             FutureX Capital invests in visionary founders building
-            transformative AI technologies across all stages. With $3B+ accumulated investment and
-            deep roots in the US and China tech ecosystems, we're positioned at
-            the forefront of the next wave of innovation.
+            transformative AI technologies across all stages. With $3B+ accumulated investment,
+            60+ AI companies backed since 2023 with 70% already profitable, and deep roots in the
+            US and China tech ecosystems, we're positioned at the forefront of the next wave of innovation.
           </div>
           <div className="lg:grid lg:grid-rows-2 lg:grid-flow-col lg:gap-4 lg:mt-[0.6rem] mt-[2.6rem] lg:justify-around flex justify-between lg:w-[39.375rem]">
             <div>

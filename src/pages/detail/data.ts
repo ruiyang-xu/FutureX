@@ -16,74 +16,84 @@ import art14 from "./artDetail/art14";
 import art15 from "./artDetail/art15";
 import art16 from "./artDetail/art16";
 import art17 from "./artDetail/art17";
+import art18 from "./artDetail/art18";
+import art19 from "./artDetail/art19";
 
 export const newList: NewDetail[] = [
   {
     ...list[0],
-    detail: art1,
+    detail: art18,
   },
   {
     ...list[1],
-    detail: art2,
+    detail: art19,
   },
   {
     ...list[2],
-    detail: art3,
+    detail: art1,
   },
   {
     ...list[3],
-    detail: art4,
+    detail: art2,
   },
   {
     ...list[4],
-    detail: art5,
+    detail: art3,
   },
   {
     ...list[5],
-    detail: art6,
+    detail: art4,
   },
   {
     ...list[6],
-    detail: art7,
+    detail: art5,
   },
   {
     ...list[7],
-    detail: art8,
+    detail: art6,
   },
   {
     ...list[8],
-    detail: art9,
+    detail: art7,
   },
   {
     ...list[9],
-    detail: art10,
+    detail: art8,
   },
   {
     ...list[10],
-    detail: art11,
+    detail: art9,
   },
   {
     ...list[11],
-    detail: art12,
+    detail: art10,
   },
   {
     ...list[12],
-    detail: art13,
+    detail: art11,
   },
   {
     ...list[13],
-    detail: art14,
+    detail: art12,
   },
   {
     ...list[14],
-    detail: art15,
+    detail: art13,
   },
   {
     ...list[15],
-    detail: art16,
+    detail: art14,
   },
   {
     ...list[16],
+    detail: art15,
+  },
+  {
+    ...list[17],
+    detail: art16,
+  },
+  {
+    ...list[18],
     detail: art17,
   },
 ];

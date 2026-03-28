@@ -19,7 +19,7 @@ const Footer = () => {
          </a>
         </p>
         <p className="text-sm text-white mt-12">
-          © 2018 - 2024 FutureX. All rights reserved.
+          © 2018 - 2026 FutureX. All rights reserved.
         </p>
       </div>
     </div>
