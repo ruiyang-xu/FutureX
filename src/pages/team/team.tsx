@@ -28,7 +28,7 @@ const Team = () => {
   
   return (
     <section className="main">
-      <div className="py-[9.375rem] h2">Our Team</div>
+      <div className="pt-[9.375rem] pb-[3.75rem] h2">Our Team</div>
       <div className="lg:flex lg:justify-between gap-[3.75rem] mb-[7.5rem]">
         <div className="w-[100%] text-3xl text-[#8EB6DC] font-georgia-b ">
           A Vision Sparked, <br></br>A Team United

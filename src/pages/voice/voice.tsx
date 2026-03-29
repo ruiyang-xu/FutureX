@@ -21,23 +21,26 @@ const Voice = () => {
   }, []);
   return (
     <section className="main overflow-x-hidden">
-      <div className="py-[9.375rem] h2 w-[100%]">Our Perspectives</div>
-      <div className="flex flex-wrap w-[100%]">
-        <div className="text-2xl uppercase mr-8 font-bold small_cap">
+      <div className="pt-[9.375rem] pb-[3.75rem] h2 w-[100%]">Our Perspectives</div>
+      <div className="flex flex-wrap w-[100%] items-baseline gap-y-2">
+        <div className="text-sm uppercase mr-6 font-proximanova-b small_cap tracking-widest text-black">
           Filter
         </div>
         {navList.map((item) => {
           return (
             <div
               className={[
-                "text-2xl",
+                "text-sm",
                 "uppercase",
-                "mr-8",
-                "text-[#666]",
+                "mr-6",
                 "cursor-pointer",
                 "small_cap",
-                "proximanova",
-                select === item.value ? "text-blue underline" : "",
+                "font-proximanova",
+                "tracking-wider",
+                "pb-1",
+                "transition-colors",
+                "duration-200",
+                select === item.value ? "text-blue border-b-2 border-blue" : "text-[#888] hover:text-[#444]",
               ].join(" ")}
               key={item.value}
               onClick={() => {

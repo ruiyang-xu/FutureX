@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
       <section className="main se_bt">
-        <div className="text-3xl md:text-4xl lg:text-5xl text-blue font-georgia-b w-full lg:w-3/4 mt-8 md:mt-16 lg:mt-32 leading-tight lg:leading-[5.125rem] font-black">
+        <div className="h2 text-blue w-full lg:w-3/4 pt-[9.375rem] leading-tight lg:leading-[5.125rem]">
           <span className="text-blueLigh">Founders We </span> Backed
           <span className="text-blueLigh"> are </span> Backing
           <span className="text-blueLigh"> Us</span>
         </div>
-        <div className="w-full md:w-[80%] text-blueLigh text-base md:text-lg lg:text-xl font-normal leading-relaxed md:leading-[1.8rem] tracking-[0.1rem] mt-8 md:mt-16 lg:mt-[5.625rem] letter">
+        <div className="w-full md:w-[80%] text-blueLigh p1 mt-[3.75rem]">
           By connecting 100+ top-tier tech founders of yesterday, today, and
           tomorrow, we're accelerating the future of technology globally.
         </div>

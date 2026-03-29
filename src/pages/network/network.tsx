@@ -7,8 +7,8 @@ const NetWord = () => {
   const isMobile = useIsMoile();
   return (
     <div className="mxa-w-[100vw] overflow-x-visible">
-      <section className="px-14 main">
-        <div className="h2 mt-[9.375rem]">X-Network</div>
+      <section className="main">
+        <div className="h2 pt-[9.375rem]">X-Network</div>
         <p className="p1 mt-[5.625rem] w-[100%] font-thin">
           At FutureX, we believe in the
           <span className="font-proximanova-b">

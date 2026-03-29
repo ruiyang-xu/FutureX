@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(grep -E \"\\\\.\\(tsx|ts\\)$\")",
+      "WebFetch(domain:mp.weixin.qq.com)",
+      "WebSearch",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "WebFetch(domain:archive.org)",
+      "WebFetch(domain:readhub.cn)",
+      "WebFetch(domain:freewechat.com)",
+      "WebFetch(domain:www.anyv.net)",
+      "WebFetch(domain:archive.ph)",
+      "WebFetch(domain:www.sogou.com)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781\" https://mp.weixin.qq.com/s/AdNzrNS5ddAk2C3s5MWsxQ)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://mp.weixin.qq.com/s/AdNzrNS5ddAk2C3s5MWsxQ\")",
+      "Read(//tmp/**)",
+      "WebFetch(domain:weixin.sogou.com)",
+      "WebFetch(domain:www.weixinall.com)",
+      "WebFetch(domain:whatsread.com)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://mp.weixin.qq.com/s/-jU1rF2nSeA6ygwlPKx-MA)"
+    ]
+  }
+}

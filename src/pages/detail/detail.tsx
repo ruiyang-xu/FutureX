@@ -12,16 +12,16 @@ const Detail = () => {
   }, []);
   return (
     <div className="main">
-      <div className=" mb-[120px] mt-[9.375rem]  max-w-[56.25rem]">
-        <div className="text-black bg-blueLigh px-8 py-[0.1rem] inline-block uppercase rounded-[1rem] small_cap">
+      <div className=" mb-[5rem] mt-[9.375rem]  max-w-[42rem]">
+        <div className="text-blue bg-blueBg px-4 py-[0.25rem] inline-block uppercase rounded-[0.25rem] small_cap text-sm tracking-wider">
           {data.type}
         </div>
         <div
-          className="text-3xl font-georgia-b my-[2.8125rem] detail"
+          className="text-3xl font-georgia-b my-[2rem] text-black"
           dangerouslySetInnerHTML={{ __html: data.title }}
         ></div>
-        <div className="text-xl font-georgia text-[#666]">{data.date}</div>
-        <div className="mt-[7.5rem] text-xl">{data.desc}</div>
+        <div className="text-sm font-proximanova text-[#888] tracking-wide uppercase">{data.date}</div>
+        <div className="mt-[2.5rem] text-lg text-[#444] leading-relaxed">{data.desc}</div>
         <div
           dangerouslySetInnerHTML={{ __html: data.detail }}
           className="art_detail"

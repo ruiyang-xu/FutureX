@@ -20,7 +20,7 @@
     @apply text-2xl font-proximanova-l font-light;
   }
   .main {
-    @apply lg:max-w-[90rem] w-[100%] mx-auto px-[5.625rem];
+    @apply lg:max-w-[90rem] w-[100%] mx-auto px-[1.5rem] md:px-[3rem] lg:px-[5.625rem];
   }
   .se_bt {
     @apply mb-[7.5rem];
@@ -89,12 +89,6 @@
     animation: width-show 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
 
-  .detail {
-    color: #6ea3d5;
-  }
-  .detail strong {
-    color: #1470af;
-  }
   body,
   html {
     font-family: proximanova, "Times New Roman", Times, serif;

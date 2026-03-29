@@ -4,10 +4,10 @@ const Disclaimer = () => {
   return (
     <div className="max-w-[100vw] overflow-x-hidden bg-white text-black">
       <section className="main se_bt">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-georgia-b w-full lg:w-3/4 mt-8 md:mt-16 lg:mt-32 leading-tight lg:leading-[5.125rem] font-black">
+        <div className="pt-[9.375rem] h2">
           Disclaimer
         </div>
-        <div className="w-full md:w-[80%] text-base md:text-lg lg:text-xl font-normal leading-relaxed md:leading-[1.8rem] tracking-[0.1rem] mt-8 md:mt-16 lg:mt-[5.625rem] letter">
+        <div className="w-full md:w-[80%] p1 mt-[3.75rem]">
           Please read these terms and conditions carefully before using our services.
         </div>
       </section>
