@@ -23,6 +23,33 @@ export const navList: VoiceNav[] = [
 
 export const newList: NewList[] = [
   {
+    id: 18,
+    type: "event",
+    title:
+      "GDPS Exhibition Insights: 3 Days, 100+ AI Entrepreneurs, 4 Confirmed Trends",
+    desc: `GDPS 2026 just wrapped up. Over three days, we brought five portfolio companies to set up booths on-site, witnessing AI's real-world deployment firsthand. AI has moved from "can it be done?" to "how do we turn it into a business?" We observed four key signals: accelerating AI application maturity, the rise of super entrepreneurs and one-person companies, the rapidly forming Agent ecosystem, and AI's shift from productivity tools to human-centric scenarios.`,
+    date: "March 29, 2026",
+    img: "",
+  },
+  {
+    id: 19,
+    type: "insight",
+    title:
+      "When AI Is No Longer Just a Partner — FutureX's 30-Day OpenClaw Organizational Upgrade",
+    desc: `In 30 days, FutureX Capital went from installing its first ClawBot to becoming an AI-native organization. This is the real record of that transformation — from watching AI agents autonomously evolve in our research group chat, to deploying the FutureX AI Research Lab, to navigating the intersection of the AI Agent wave and geopolitical storm. A story about organizational evolution, boundary exploration, and what it means when AI stops being just a tool.`,
+    date: "March 3, 2026",
+    img: "",
+  },
+  {
+    id: 20,
+    type: "event",
+    title:
+      "From Experimentation to Daily Use: Consumer AI Hardware Explosion at CES 2026 | FutureX Insight",
+    desc: `Entering 2026, consumer AI hardware has built on the maturation trajectory of 2025 — a year defined by major acquisitions from Meta, OpenAI, and others. The market has decisively moved away from speculative "smartphone killers" toward pragmatic, vertically integrated devices. From Meta's dominant Ray-Ban smart glasses to the thriving companion robot market, we examine the categories that won, those that failed, and what proactive intelligence and ambient AI mean for 2026.`,
+    date: "January 7, 2026",
+    img: "",
+  },
+  {
     id: 1,
     type: "event",
     title: "FutureX's Silicon Valley AI Tour: A Recap",

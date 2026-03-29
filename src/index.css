@@ -32,54 +32,68 @@
 
 @layer utilities {
   @font-face {
-    font-family: "proximanova";
-    src: url("./assets/fonts/proximanova.ttf");
-  }
-
-  @font-face {
-    font-family: "proximanoval";
+    font-family: "Proxima Nova";
     src: url("./assets/fonts/proximanova_light.otf");
+    font-weight: 300;
+    font-style: normal;
   }
-
   @font-face {
-    font-family: "proximanovam";
+    font-family: "Proxima Nova";
+    src: url("./assets/fonts/proximanova.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Proxima Nova";
     src: url("./assets/fonts/ProximaNova-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
   }
   @font-face {
-    font-family: "proximanovab";
+    font-family: "Proxima Nova";
     src: url("./assets/fonts/proximanova_bold.otf");
+    font-weight: 700;
+    font-style: normal;
   }
 
   @font-face {
-    font-family: "georgia";
+    font-family: "Georgia Custom";
     src: url("./assets/fonts/georgia.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Georgia Custom";
+    src: url("./assets/fonts/georgiab.ttf");
+    font-weight: 700;
+    font-style: normal;
   }
 
-  @font-face {
-    font-family: "georgiab";
-    src: url("./assets/fonts/georgiab.ttf");
-  }
   .font-georgia {
-    font-family: georgia, "Times New Roman", Times, serif;
+    font-family: "Georgia Custom", Georgia, serif;
   }
   .font-georgia-b {
-    font-family: georgiab, "Times New Roman", Times, serif;
+    font-family: "Georgia Custom", Georgia, serif;
+    font-weight: 700;
   }
 
   .font-proximanova {
-    font-family: proximanova, "Times New Roman", Times, serif;
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
   .font-proximanova-l {
-    font-family: proximanoval, "Times New Roman", Times, serif;
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 300;
   }
   .font-proximanova-m {
-    font-family: proximanovam, "Times New Roman", Times, serif;
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 500;
   }
   .font-proximanova-b {
-    font-family: proximanovab, "Times New Roman", Times, serif;
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
   }
   .font-normal {
-    font-family: "Times New Roman";
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
   #nav a.active {
     text-decoration: solid;
@@ -91,7 +105,7 @@
 
   body,
   html {
-    font-family: proximanova, "Times New Roman", Times, serif;
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     width: 100vw;
     overflow-y: scroll;
   }
