@@ -19,7 +19,14 @@
       "WebFetch(domain:weixin.sogou.com)",
       "WebFetch(domain:www.weixinall.com)",
       "WebFetch(domain:whatsread.com)",
-      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://mp.weixin.qq.com/s/-jU1rF2nSeA6ygwlPKx-MA)"
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://mp.weixin.qq.com/s/-jU1rF2nSeA6ygwlPKx-MA)",
+      "WebFetch(domain:news.crunchbase.com)",
+      "WebFetch(domain:clearingcustody.fidelity.com)",
+      "WebFetch(domain:privatebank.barclays.com)",
+      "WebFetch(domain:www.venturecapitaljournal.com)",
+      "WebFetch(domain:www.fidelity.com)",
+      "WebFetch(domain:www.barclays.co.uk)",
+      "WebFetch(domain:pitchbook.com)"
     ]
   }
 }

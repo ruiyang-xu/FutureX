@@ -5,7 +5,7 @@ export default `
   </p>
 
   <p>
-    On the morning of January 28th at 7:34 AM, I posted on WeChat Moments: "This morning, my ClawBot (AI lobster robot) completed over a dozen deep sector research reports that 21 research colleagues had been working on for a month. Some were even higher quality. Will VCs no longer need industry research?"
+    On the morning of January 28th at 7:34 AM, I posted on WeChat Moments: "This morning, my ClawBot (AI lobster robot) completed over a dozen deep sector research reports that our research colleagues had been working on for a month. Some were even higher quality. Will VCs no longer need industry research?"
   </p>
 
   <p>
@@ -53,7 +53,7 @@ export default `
   </p>
 
   <p>
-    First, the AI Agent wave has arrived and is accelerating. a16z's (Andreessen Horowitz) prediction — that this Agent wave would profoundly reshape knowledge industry division of labor within 18 months — is being validated by reality. Crunchbase data shows that in 2025, the AI sector absorbed one-third of global VC investment, exceeding $100 billion, with continued concentration expected in 2026.
+    First, the AI Agent wave has arrived and is accelerating. a16z's (Andreessen Horowitz) prediction — that this Agent wave would profoundly reshape knowledge industry division of labor within 18 months — is being validated by reality. Crunchbase data shows that in 2024, the AI sector absorbed close to one-third of global VC investment, exceeding $100 billion, with continued concentration expected in 2026.<sup><a href="#sources" style="color: inherit; font-size: 0.75em;">[1]</a></sup>
   </p>
 
   <p>
@@ -61,7 +61,7 @@ export default `
   </p>
 
   <p>
-    Third, history tells us something else. Research from Fidelity and Barclays both point to the same conclusion: the long-term impact of geopolitical crises on stock markets is virtually zero — what truly determines asset prices is corporate profitability. WWII, Vietnam War, Gulf War, 9/11, Ukraine War — every time, someone missed entry opportunities because "the world is ending."
+    Third, history tells us something else. Research from Fidelity and Barclays both point to the same conclusion: geopolitical crises have had political and humanitarian consequences, but limited long-term impact on markets — what truly determines asset prices is corporate profitability. WWII, Vietnam War, Gulf War, 9/11, Ukraine War — every time, someone missed entry opportunities because "the world is ending."<sup><a href="#sources" style="color: inherit; font-size: 0.75em;">[2][3]</a></sup>
   </p>
 
   <p>
@@ -101,7 +101,7 @@ export default `
   </p>
 
   <p>
-    The due diligence on SmartCore Digital completely changed my understanding of the "AI manufacturing" sector. Founder Hongxuan Chen is a post-95s entrepreneur whose family runs Chunguang Group — one of China's largest manufacturers of core components for robot vacuum cleaners. During the 2019 trade war, he went to Vietnam to build a factory, handling everything from site selection to equipment procurement to utility contracts. During the 2020 pandemic, when orders multiplied geometrically, he was still on the production line at 2 AM, recording on paper what each machine was producing.
+    The due diligence on SmartCore Digital completely changed my understanding of the "AI manufacturing" sector. Founder Hongxuan Chen is a post-95s entrepreneur whose family runs Chunguang Group — one of China's largest manufacturers of core components for robot vacuum cleaners. During the 2019 trade war, he went to Vietnam to build a factory, handling everything from site selection to equipment procurement to utility contracts. During the 2pandemic, when orders multiplied geometrically, he was still on the production line at 2 AM, recording on paper what each machine was producing.
   </p>
 
   <p>
@@ -151,7 +151,7 @@ export default `
   </p>
 
   <p>
-    Day Five: Another Bot joined, specialized in sourcing projects. Four ClawBots, running 24/7, each with assigned roles, forming a genuine "AI research team." The 20 research colleagues in the group went quiet. Not from defeat, but from the kind of silence that comes with "needing to rethink your position."
+    Day Five: Another Bot joined, specialized in sourcing projects. Four ClawBots, running 24/7, each with assigned roles, forming a genuine "AI research team." The research colleagues in the group went quiet. Not from defeat, but from the kind of silence that comes with "needing to rethink your position."
   </p>
 
   <p><strong>V. The Entrepreneur's Mirror: Yibo and "AI Is Alive"</strong></p>
@@ -255,7 +255,7 @@ export default `
   </p>
 
   <p>
-    We manage nearly $3 billion in assets. LP materials, investment memos, portfolio companies' sensitive information — all in our systems. A data breach wouldn't just be reputational damage; it would be a complete betrayal of LP trust.
+   LP materials, investment memos, portfolio companies' information — all in our systems. A data breach wouldn't just be reputational damage; it would be a complete betrayal of LP trust.
   </p>
 
   <p>
@@ -312,6 +312,27 @@ export default `
 
   <p>
     In 1,000 days, the ones standing at the crest of the wave will be today's pioneers. We're already on the way. Are you?
+  </p>
+
+  <hr id="sources" style="margin-top: 48px; border: none; border-top: 1px solid #e5e7eb;" />
+
+  <p style="margin-top: 24px; font-size: 0.8em; color: #6b7280; line-height: 1.8;">
+    <strong style="color: #374151;">Sources</strong>
+  </p>
+
+  <p style="font-size: 0.8em; color: #6b7280; line-height: 1.8;">
+    [1] Crunchbase, <em>Startup Funding Regained Its Footing In 2024 As AI Became The Star Of The Show</em> (2024 Year-End Report) —
+    <a href="https://news.crunchbase.com/venture/global-funding-data-analysis-ai-eoy-2024/" target="_blank" rel="noopener noreferrer" style="color: #6b7280; text-decoration: underline;">news.crunchbase.com</a>
+  </p>
+
+  <p style="font-size: 0.8em; color: #6b7280; line-height: 1.8;">
+    [2] Fidelity Investments, <em>Global Conflicts and Markets</em> (Denise Chisholm, Director of Quantitative Market Strategy) —
+    <a href="https://clearingcustody.fidelity.com/insights/topics/market-commentary/global-conflicts-and-markets" target="_blank" rel="noopener noreferrer" style="color: #6b7280; text-decoration: underline;">clearingcustody.fidelity.com</a>
+  </p>
+
+  <p style="font-size: 0.8em; color: #6b7280; line-height: 1.8;">
+    [3] Barclays Private Bank, <em>Banking on Geopolitical Uncertainty</em> (August 2023) —
+    <a href="https://privatebank.barclays.com/insights/2023/august/banking-on-geopolitical-uncertainty/" target="_blank" rel="noopener noreferrer" style="color: #6b7280; text-decoration: underline;">privatebank.barclays.com</a>
   </p>
 </div>
 `;

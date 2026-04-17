@@ -27,7 +27,7 @@ export const newList: NewList[] = [
     type: "event",
     title:
       "GDPS Exhibition Insights: 3 Days, 100+ AI Entrepreneurs, 4 Confirmed Trends",
-    desc: `GDPS 2026 just wrapped up. Over three days, we brought five portfolio companies to set up booths on-site, witnessing AI's real-world deployment firsthand. AI has moved from "can it be done?" to "how do we turn it into a business?" We observed four key signals: accelerating AI application maturity, the rise of super entrepreneurs and one-person companies, the rapidly forming Agent ecosystem, and AI's shift from productivity tools to human-centric scenarios.`,
+    desc: `GDPS 2026 just wrapped up. Over three days, we walked the floor as observers — and what we saw offered one of the most grounded, unfiltered looks at where AI deployment actually stands today. AI has moved from "can it be done?" to "how do we turn it into a business?" We observed four key signals: accelerating AI application maturity, the rise of super entrepreneurs and one-person companies, the rapidly forming Agent ecosystem, and AI's shift from productivity tools to human-centric scenarios.`,
     date: "March 29, 2026",
     img: "",
   },
